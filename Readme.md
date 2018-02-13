@@ -9,15 +9,15 @@
 
 # Bienvenido 
 
-Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia desafio.
+Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia desafío.
 
 El objetivo, ~~Es enamorarse~~ Es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una pagina web. 
 
-Lo haremos en conjunto, realizando actividades que utilizan la metodologia de hazlo tu mismo , mientras aprendes teoria.
+Lo haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo , mientras aprendes teoría.
 
-Primero realizaremos una pagina web estatica utilizando html + css , Tranquilo si no tienes ningun conocimiento previo, no los necesitas, te guiaremos en el proceso.
+Primero realizaremos una pagina web estática utilizando html + css , Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
 
-Trataremos de ir explicando cada termino utilizado para que tengas un contexto de lo que estamos haciendo. Y a tu disposicion estaran los mentores y guias para ayudarte cuando lo necesites.
+Trataremos de ir explicando cada termino utilizado para que tengas un contexto de lo que estamos haciendo. Y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
 
 
 ## ¿Qué se necesita para este taller?
@@ -45,26 +45,26 @@ Cómo editor de texto te recomendamos:
 
 ## ¿Qué es una página web?
 
-Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazon, asi que definiremos de forma muy simple algunos terminos. 
+Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos. 
 
 ***WebPage (página web)*** es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
 
-***Un Website(sitio Web)*** es una colección de páginas(documentos), agrupadas y conectadas, generalmente de un mismo tema o topico.
+***Un Website(sitio Web)*** es una colección de páginas(documentos), agrupadas y conectadas, generalmente de un mismo tema o tópico.
 
 ***Web Server(servidor Web)*** es un computador que almacena websites en internet.
 
-***CSS(Cascading Stylesheets)*** significa hojas de estilo en cascada y es un lenguaje para definir estilos a las etiquetas HTML. CSS tambien puede definir como los elementos pueden ser mostrados.
+***CSS(Cascading Stylesheets)*** significa hojas de estilo en cascada y es un lenguaje para definir estilos a las etiquetas HTML. CSS también puede definir como los elementos pueden ser mostrados.
 
 ***JS*** JavaScript es un lenguaje de programación muy utilizado para hacer páginas webs.
 
-***¿ muy rapido ? No lo creo, Bienvenid@ a la web.***
+***¿ muy rápido ? No lo creo, Bienvenido@ a la web.***
 
 ![](https://media.giphy.com/media/ZEobigiRBFc7S/giphy.gif)
 
 ## Creando nuestra primera página web:
 
 
-Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acercate a algún mentor, guia de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte. 
+Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte. 
 
 ### Primer paso :
 
@@ -78,7 +78,7 @@ Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 ### Tercer paso:
 
-Ahora creamos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el boton secundario y utilizar la opción "New File". 
+Ahora creamos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File". 
 
 ![new file con Atom](images/New_file_atom.png)
 
@@ -102,7 +102,7 @@ Presionamos enter y el archivo quedó guardado como index.html
 Ahora escribiremos, en nuestro archivo: 
 
 ~~~html
-Feliz dia del amor, Hola mi amor, o lo que tu quieras !!!
+Feliz día del amor, Hola mi amor, o lo que tu quieras !!!
 ~~~
 
 Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, pero te recomiendo que utilizes el atajo del teclado. 
@@ -110,11 +110,11 @@ Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, per
 
 ### Quinto paso
 
-Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y abrelo. 
+Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y ábrelo. 
  
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
-![imagen feliz dia del](images/FirstPage.png)
+![imagen feliz día del](images/FirstPage.png)
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
 
@@ -129,9 +129,9 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 
 ***¿Por qué la extension del archivo es .html?***
 
-El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrira y leera su contenido, En la siguiente etapa vamos a conocer mas de HTML.
+El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente etapa vamos a conocer mas de HTML.
 
-Este simple ejercicio nos enseño algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ comentenlo.
+Este simple ejercicio nos enseño algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ comenten.
 
 
 
@@ -140,7 +140,7 @@ Este simple ejercicio nos enseño algunas cosas interesantes, mira a tu compañe
 
 HTML es un simple código que es interpretado por el navegador web para mostrar una página web al usuario.
 
-HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de HyperTexto. 
+HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de Hypertexto. 
 
 **HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas. 
 
@@ -153,17 +153,17 @@ HTML es un lenguaje de **marcas**, cada una comenzando con `<` y terminando con 
 Entonces una página web  es un archivo que contiene un conjunto de marcas ó etiquetas y  el navegador lee estos archivos HTML y con eso muestra las páginas.
 
 
-# ~~Conozcamosnos~~ Trabajemos.
+# ~~Conozcamonos~~ Trabajemos.
 
 Reunanse en parejas, si, no sean timid@, estamos acá para conocer gente y aprender.
 
-Una vez reunidos, vamos a contruir  un sitio con el  perfil de tu compañer@. Vamos a añadir alguna foto, por lo cual cada uno debera facilitar sacarse una o bajarla de la red social.
+Una vez reunidos, vamos a construir  un sitio con el  perfil de tu compañer@. Vamos a añadir alguna foto, por lo cual cada uno deberá facilitar sacarse una o bajarla de la red social.
 
-Ademas el sitio debe contener la información de gustos de cada uno, si seamos cursis y preguntemos hasta el signo zodical. Lo importante es reunir información para que nuestra pagina sea real y la información lo mas real posible. 
+Ademas el sitio debe contener la información de gustos de cada uno, si seamos cursis y preguntemos hasta el signo zodiacal. Lo importante es reunir información para que nuestra pagina sea real y la información lo mas real posible. 
 
 Si viniste con tu pareja y todos estos datos ya son conocidos, Celebremos el amor y creemos una oda a la persona que tenemos a nuestro lado, Una pagina con su descripciones y gustos, o simplemente porque la aman tanto,  o sus mas oscuros deseos etc... seamos creativos.
 
-Si por algun motivo no alcanzamos a tener compañer@, no te preocupes, crea tu propio perfil, demostrando que eres mas cool y que amas el código y a ti,  mas que el whiskey al hielo.
+Si por algún motivo no alcanzamos a tener compañer@, no te preocupes, crea tu propio perfil, demostrando que eres mas cool y que amas el código y a ti,  mas que el whiskey al hielo.
 
 ## Primera parte
 
@@ -189,7 +189,7 @@ El `doctype` (o tipo de documento) es la primera etiqueta que leeremos y le indi
 
 La etiqueta `<html>` especifica que desde ese punto en adelante todo lo que venga deberá ser interpretado como HTML.
 
-En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encontrar las hojas de estilo o los íconos, hasta cuál es el título del sitio o sencillamente cómo debe manejar la página en el caso de que tenga que adaptarse a distintos tamaños de pantalla.
+En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encontrar las hojas de estilo o los iconos, hasta cuál es el título del sitio o sencillamente cómo debe manejar la página en el caso de que tenga que adaptarse a distintos tamaños de pantalla.
 
 
 ### Actividad 01. 
@@ -200,7 +200,7 @@ En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encon
 html
 ~~~
 
-Gracias a las cualidades de nuestro editor de texto, si presionamos enter luego de escribirlo, nos dara la posibilidad de autocompletar la estructura base del html.
+Gracias a las cualidades de nuestro editor de texto, si presionamos enter luego de escribirlo, nos dará la posibilidad de autocompletar la estructura base del html.
 
 ![html](images/html_estructura.png)
 
@@ -209,7 +209,7 @@ De esta forma podemos tener la estructura de nuestra página.
 ![html-Autocompletado](images/html_estructura01.png)
 
 
-No olvides guardar la pagina en este punto  Ctrl + s(windows, linux)  o cmnd + s(mac) , Atom borrara el punto azul en el nombre de nuestro archivo cuando esta guardado.
+No olvides guardar la pagina en este punto  Ctrl + s(windows, linux)  o cmd + s(mac) , Atom borrara el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 
 ### El título
@@ -307,16 +307,16 @@ Añade 3 párrafos a tu página web:
 
 -	El primero debe describir brevemente a tu compañer@.
 -  El segundo debe indicar la edad de tú compañer@ y cuando esta de cumpleaños.
--  El tercero debe indicar cual era la espectativa de participar hoy en este evento.
+-  El tercero debe indicar cual era la expectativa de participar hoy en este evento.
 
 No olvides guardar tu archivo y revisa tu progreso en tu navegador.
 
 
-### Títulos y Subtitulos:
+### Títulos y Subtítulos:
 
-Una página web también tiene titulos y subtitulos, al igual que un periódico!
+Una página web también tiene títulos y subtítulos, al igual que un periódico!
 
-La marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el títular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título!
+La marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título!
 
 Por ejemplo escribamos en nuestro archivo index.html:
 
@@ -348,7 +348,7 @@ Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que los párra
 
 ### Imágenes:
 
-Hasta el momento solo hemos utilizado texto, asi que pondremos algunas imagenes. La etiqueta para agregar imágenes es
+Hasta el momento solo hemos utilizado texto, así que pondremos algunas imágenes. La etiqueta para agregar imágenes es
 
 ~~~html
 <img src=" " alt=" ">
@@ -419,7 +419,7 @@ Donde *images* es el nombre de la carpeta donde se encuentra mi imagen + `/` + *
 
 ### Actividad 04
 
--	Añade una foto de tu compañer@ puede ser a tráves de la red social una que tomes en el momento etc. Recuerda que si el archivo es local, debes creas la carpeta images dentro de tu proyecto. (Solicita permiso a tu compañero antes de tomar la foto).
+-	Añade una foto de tu compañer@ puede ser a través de la red social una que tomes en el momento etc. Recuerda que si el archivo es local, debes creas la carpeta images dentro de tu proyecto. (Solicita permiso a tu compañero antes de tomar la foto).
 -	Añade la foto arriba del primer título.
 -  Guarda tu archivo y comprueba tu progreso en el navegador.
 
@@ -439,11 +439,11 @@ Veamos un ejemplo:
 <a href="https://www.facebook.com/events/1455951704527398/">Link al evento</a>
 
 ~~~
-Aquí se está transformando a la frase *Link al evento* en un hipervínculo. Y al hacerle *click* en ella , te enviará al link escrito dentro de las `" "` del `href`
+Aquí se está transformando a la frase *Link al evento* en un hipervínculos. Y al hacerle *click* en ella , te enviará al link escrito dentro de las `" "` del `href`
 
 ![imagen del link](images/link.png)
 
-Por ende lo que hace esta etiqueta es darle la **propiedad de hipervínculo** al contenido de ésta, apuntándolo al link que se encuentra en `href`
+Por ende lo que hace esta etiqueta es darle la **propiedad de hipervínculos** al contenido de ésta, apuntándolo al link que se encuentra en `href`
 
 Si pongo link sin `href`, no me llevará a ninguna parte. Y si al link no le pongo texto(contenido) ,pero si `href`, no se podrá ver el link por ninguna parte y por ende no se podrá hacer nada.
 
@@ -458,7 +458,7 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 
 ### Actividad 05
 
-- Añade un parrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier pagina que le guste mucho, pone una descripcion al enlace.
+- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier pagina que le guste mucho, pone una descripción al enlace.
 
 - Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervinculo, el link a donde nos redirige debe ser alguna pagina acorde a la imagen.
 
@@ -471,19 +471,19 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 
 Hagamos un pequeño resumen de lo que hemos aprendido:
 
-Si todo salio bien, Nuestro código deveria verse asi.
+Si todo salió bien, Nuestro código debería verse así.
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pizza de Peperonni</title>
+  <title>Pizza de Pepperoni</title>
   <meta charset="utf-8">
 </head>
 <body>
     <img src="http://littlecaesars.com.mx/portals/7/Images/			HSMenu_HNR_Clasica_Pep_Hisp.png" 			alt="DeliciosaPizza">
     <h1> Pizza De Peperoni </h1>
-    <h2>Hermosa y Deliciosa pizza, rapida y consisa.</h3>
+    <h2>Hermosa y Deliciosa pizza, rapida y concisa.</h3>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing 		  elit.
       Ipsam consequuntur omnis minima dolorem adipisci officiis 		enim
       optio tenetur quos aliquid, saepe, corporis dignissimos?
@@ -509,12 +509,12 @@ Esto se vería así:
 - Luego un sub sub título `<h2>`.
 - Luego viene un párrafo con bastante texto.
 - Luego un párrafo que a su vez con tiene un link (`<a>`).
-- luego  dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Conviertiendo la imagen en un hipervinculo.
+- luego  dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervinculo.
 
 
 
 
-***Revisa si tienes algo parecido a esto, Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas apoyate en los mentores.***
+***Revisa si tienes algo parecido a esto, Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas apoyese en los mentores.***
 
 
 
@@ -595,7 +595,7 @@ Envuelve varias etiquetas, y todas las etiquetas envueltas por él, están bajo 
 </div>
 ~~~
 
-Cada div puede indicar una clase especifica, esto servira mas adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
+Cada div puede indicar una clase especifica, esto servirá mas adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
 
 
 ### Span:
@@ -615,7 +615,7 @@ Vamos a continuar nuestra pagina dandole un poco de orden.
 
 - Añade un otro div y  agrega una tabla a tu pagina resaltando cualidades de tu compañer@. 
 
-**Por defecto al autocompletar un div aparece la etiqueta class="", por el momento la dejaremos vacia. Recuerda pedir ayuda a los mentores si tienes dudas.**
+**Por defecto al autocompletar un div aparece la etiqueta class="", por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
 
 
@@ -624,7 +624,7 @@ Vamos a continuar nuestra pagina dandole un poco de orden.
 
 HTML5 introduce  etiquetas semánticas, que no aportan ningún comportamiento visual adicional, pero que nos permiten por un lado definir de forma semántica el significado de su contenido, lo que será muy útil para el SEO (la optimización de contenidos para buscadores)
 
-![imgen de etiquetas semanticas](images/semanticas.png)
+![imagen de etiquetas semánticas](images/semanticas.png)
 
 Si quieres aprender más [aquí](http://www.tutorialmonsters.com/web-semantica-con-html5/)
 
@@ -662,7 +662,7 @@ Ahora vamos a saltar al diseño de nuestra página web.
 
 ![imagen de html css y js](images/htmlcssjs.png)
 
-Hemos aprendido algunas cosas escenciales de HTML, lo  que vendría siendo el esqueleto de nuestro sitio web, ahora le añadiremos la "piel", el diseño, y eso lo hacemos con CSS.
+Hemos aprendido algunas cosas esenciales de HTML, lo  que vendría siendo el esqueleto de nuestro sitio web, ahora le añadiremos la "piel", el diseño, y eso lo hacemos con CSS.
 
 
 
@@ -808,7 +808,7 @@ h2 {
 }
 ~~~
 
-Deveria verse asi.
+Deveria verse así.
 
 ![imagen de estilo](images/colortitulos.png)
 
@@ -902,7 +902,7 @@ Pero como se mencionaba anteriormente el id es único! Pero qué pasa si se quie
 Para eso existen las **clases**. Las clases es como un identificador pero **no** único.
 
 ~~~html
-<h1 class="violeta"> Pizza De Peperoni </h1>
+<h1 class="violeta"> Pizza De Pepperoni </h1>
 <h2 class=" violeta">Hermosa y Deliciosa pizza, rápida y concisa.</h2>
 ~~~
 
@@ -914,15 +914,15 @@ Luego en el archivo css
 	color: violet;
 }	
 ~~~
-Para referirse a las clases se se ecribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
+Para referirse a las clases se esescribecribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
 
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
 
 ##Actividad 07
 
--	Añade una clase especifica para los titulos de tu página y asignale un color que prefieras.
--  Añade una id especifica al parrafo y cambia el tamaño de la letra a 30px
+-	Añade una clase especifica para los títulos de tu página y dale un color que prefieras.
+-  Añade una id especifica al párrafo y cambia el tamaño de la letra a 30px
 -  Añade clases o ID y personaliza los elementos de tu página.
 
 
@@ -963,7 +963,7 @@ body {font-family: 'Open Sans', sans-serif;}
 
 ###  Actividad 08
 
--	Añade la letra que mas te guste para tu pagina desde Googlefonts y utilizala en tu pagina.
+-	Añade la letra que mas te guste para tu pagina desde Googlefonts y usala en tu pagina.
 
 
 Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
@@ -972,7 +972,7 @@ Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/
 
 ### Recapitulemos
 
-Si has ido siguiendo las instrucciones, tu pagina ya deberia verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a tu compañer@. 
+Si has ido siguiendo las instrucciones, tu pagina ya debería verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a tu compañer@. 
 
 Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
 
@@ -982,7 +982,7 @@ Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
 
 
 
-Nuestro código html y css deveria verse algo asi:
+Nuestro código html y css deveria verse algo así:
 
 ~~~html
 <!DOCTYPE html>
@@ -998,8 +998,8 @@ Nuestro código html y css deveria verse algo asi:
     <img class="img" src="http://littlecaesars.com.mx/portals/7/Images/HSMenu_HNR_Clasica_Pep_Hisp.png" alt="Deliciosa Pizza">
   </div>
   <div class="titles">
-    <h1 class="violeta"> Pizza De Peperoni </h1>
-    <h2 class=" violeta">Hermosa y Deliciosa pizza, rapida y consisa.</h2>
+    <h1 class="violeta"> Pizza De Pepperoni </h1>
+    <h2 class=" violeta">Hermosa y Deliciosa pizza, rapida y concisa.</h2>
   </div>
   
   <div class="parrafos">
@@ -1045,7 +1045,7 @@ Nuestro código html y css deveria verse algo asi:
 ![](images/finalhtmlcss.png)
 
 
-***Note preocupes si no tienes lo mismo, lo importante es que tu código pase por la validacion de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tù quieras.***
+***Note preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tú quieras.***
 
 
 
@@ -1055,12 +1055,12 @@ Nuestro código html y css deveria verse algo asi:
 
 #Desafio del Amor Avanzado
 
-Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recien comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
+Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
 
 Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a 
 Crear un Landing page desde una estructura de ejemplo.
 
-Te invitamos a este desafio, por supuesto, los mentores estaran contigo para responder todas tus dudas.
+Te invitamos a este desafío, por supuesto, los mentores estarán contigo para responder todas tus dudas.
 
 
 # ¿Qué es Bootstrap?
@@ -1068,13 +1068,13 @@ Te invitamos a este desafio, por supuesto, los mentores estaran contigo para res
 Bootstrap es el framework más popular para el desarrollo de sitios responsive en la web, su código es compatible con SaSS y LESS por lo que podemos trabajar en nuestro preprocesador favorito sin problemas, además existen cientos de herramientas y plantillas que podemos integrar directamente con bootstrap.
 
 
-***FrameWork*** Es un entorno o marco de desarrollo que estandarisa herramientas para resolver problemas de indole similar.
+***FrameWork*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
 
-**Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, telefono).
+**Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
 
-***Sass***Syntactically Awesome Style Sheets, permite crear CSS dinamico y añade mejoras de pre-procesamiento.
+***Sass***Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
 
-**Less**Leaner Style Sheets, tambien entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
+**Less**Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
 
 ### Desventajas de bootstrap
  
@@ -1087,7 +1087,7 @@ Utilizar bootstrap completamente por defecto y no personalizarlo da un toque gen
 
 Para integrar boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
-El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrar y Jquery, estos deben ser linkeados en la página html donde se utilizaran.
+El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrap y Jquery, estos deben ser linkeados en la página html donde se utilizaran.
 
 La descarga en cambio se divide en dos tipos, el precompilado donde vienen los CSS y JS directamente a utilizar y el source que viene con todo lo necesario para modificar el código fuente en LESS o SaSS dependiendo de la versión descargada.
 
@@ -1492,7 +1492,7 @@ La grilla contiene las siguientes media queries que debemos considerar:
 
 
 
-### Mucha información ?, vamos tu puedes¡. si llegaste hasta aca ya eres genial. Ahora vamos plantearte un Desafio.
+### ¿Mucha información?, ¡vamos tú puedes¡. Si llegaste hasta acá ya eres genial, Ahora vamos plantearte un Desafio.
 
 ### Desafio Landing en Bootstrap.
 
@@ -1502,14 +1502,27 @@ La grilla contiene las siguientes media queries que debemos considerar:
 -	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
 - Añade un button a cada container.
 - Añade un Navbar inverse a tu página.
-- Has que tu pagina sea responsive utilizando las grillas de bootstrap
+- Has que tu página sea responsive utilizando las grillas de bootstrap
+- 
 
+
+Si lograste seguir todos los pasos tú pagina web deberia ser como esta.
+[]()
+
+
+
+***¡ Mucho Éxito !***
 
 
 # Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
 
+# No olvides pedir su número 
 
-#Gracias por participar ¡.
+
+
+
+![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
+#!Gracias por participar¡.
 
 
 
