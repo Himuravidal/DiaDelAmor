@@ -114,7 +114,7 @@ Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde
  
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
-![imagen feliz dia del amorcito](images/Firstpage.png)
+![imagen feliz dia del](images/FirstPage.png)
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
 
@@ -919,7 +919,7 @@ Para referirse a las clases se se ecribe un `. ` y luego el nombre que le diste 
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
 
-##Actividad 08
+##Actividad 07
 
 -	Añade una clase especifica para los titulos de tu página y asignale un color que prefieras.
 -  Añade una id especifica al parrafo y cambia el tamaño de la letra a 30px
@@ -961,7 +961,7 @@ body {font-family: 'Open Sans', sans-serif;}
 
 
 
-###  Actividad 09 
+###  Actividad 08
 
 -	Añade la letra que mas te guste para tu pagina desde Googlefonts y utilizala en tu pagina.
 
@@ -972,7 +972,7 @@ Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/
 
 ### Recapitulemos
 
-Si has ido siguiendo las instrucciones, tu pagina ya deberia verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@. 
+Si has ido siguiendo las instrucciones, tu pagina ya deberia verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a tu compañer@. 
 
 Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
 
@@ -1053,12 +1053,14 @@ Nuestro código html y css deveria verse algo asi:
 
 
 
-##DESAFIO AVANZADO
+#Desafio del Amor Avanzado
 
-Hasta el momento hemos aprendido varias cosas acerca de las páginas web, sin enbargo nuestra pagina aun no tiene un aspecto finalizado, ni tampoco esta optimizado para visualizarse en una pantalla móvil o diferentes tamaños.
-Para añadir estas mejoras Vamos a utilizar un FrameWork llamado Bootstrap.
+Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recien comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
 
-Crearemos un Landing page desde una estructura de ejemplo. Te invitamos a este desafio, por supuesto, los mentores estaran contigo para responder todas tus dudas.
+Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a 
+Crear un Landing page desde una estructura de ejemplo.
+
+Te invitamos a este desafio, por supuesto, los mentores estaran contigo para responder todas tus dudas.
 
 
 # ¿Qué es Bootstrap?
@@ -1456,7 +1458,7 @@ Es bueno analizar de que palabras vienen los nombres de reglas de estilo que pro
 
 ### Mobile First
 
-Bootstrap 3 está construido sobre el concepto de mobile first, esto quiere decir que el primer principio es que la página debe adaptarse al contenido, para eso lo que hace bootstrap es utilizar media queries y desarmar la grilla disponiendo de todo el ancho de la página para presentar su contenido.
+Bootstrap  está construido sobre el concepto de mobile first, esto quiere decir que el primer principio es que la página debe adaptarse al contenido, para eso lo que hace bootstrap es utilizar media queries y desarmar la grilla disponiendo de todo el ancho de la página para presentar su contenido.
 
 A menos que especifiquemos lo contrario.
 
@@ -1490,24 +1492,24 @@ La grilla contiene las siguientes media queries que debemos considerar:
 
 
 
-### Mucha información ?, vamos tu puedes¡. si llegaste hasta aca ya eres genial. Ahora vamos plantearte un desafio.
+### Mucha información ?, vamos tu puedes¡. si llegaste hasta aca ya eres genial. Ahora vamos plantearte un Desafio.
 
-### Desafio Bootstrap.
+### Desafio Landing en Bootstrap.
+
 -	Crea una nueva página y copia el template de bootstrap que te facilitamos.
--	Añade un Jumbotron a tu nueva página.
--	Añade un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
+-	Añade un Jumbotron a tu nueva página con un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
 -	Añade tres parrafos abajo del Jumbotron cada uno en un container diferente.
--	Elige un método para mostrar el titulo al interior del Jumbotron.
--	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen.
-- Añade la guia .
+-	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
+- Añade un button a cada container.
+- Añade un Navbar inverse a tu página.
+- Has que tu pagina sea responsive utilizando las grillas de bootstrap
 
 
 
+# Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
 
-# Si llegaste hasta acá eres genial¡¡¡. Apoya a tus compañeros para que puedan aprender y mejorar sus paginas.
 
-
-#Gracias por participar ¡¡.
+#Gracias por participar ¡.
 
 
 
