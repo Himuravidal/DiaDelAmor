@@ -13,11 +13,12 @@ Amor por el código es una actividad que nace desde las mentes creativas y vangu
 
 El objetivo, ~~es enamorarse~~ es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una página web.
 
-Esta guía la haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo, mientras aprendes la teoría desde la práctica.
 
-Primero realizaremos una página web estática utilizando HMTL y CSS. Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
+Lo haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo , mientras aprendes teoría.
 
-Trataremos de ir explicando cada término utilizado para que tengas un contexto de lo que estamos haciendo, y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
+Primero realizaremos una pagina web estática utilizando html + css , Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
+
+Trataremos de ir explicando cada termino utilizado para que tengas un contexto de lo que estamos haciendo. Y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
 
 
 ## ¿Qué se necesita para este taller?
@@ -45,7 +46,9 @@ Como editor de texto te recomendamos:
 
 ## ¿Qué es una página web?
 
+
 Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta está en nuestro corazón, así que definiremos de forma muy simple algunos términos.
+
 
 ***WebPage (página web)*** es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
 
@@ -57,7 +60,8 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 ***JS*** JavaScript es un lenguaje de programación muy utilizado para hacer páginas webs.
 
-***Bienvenid@ a la web.***
+
+***¿ muy rápido ? No lo creo, Bienvenido@ a la web.***
 
 ![](https://media.giphy.com/media/ZEobigiRBFc7S/giphy.gif)
 
@@ -65,6 +69,7 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 
 Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte.
+
 
 ### Primer paso :
 
@@ -78,7 +83,9 @@ Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 ### Tercer paso:
 
+
 Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
+
 
 ![new file con Atom](images/New_file_atom.png)
 
@@ -110,11 +117,13 @@ Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, per
 
 ### Quinto paso
 
-Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y abrámoslo.
 
+Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y ábrelo. 
+ 
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
-![imagen feliz día del amorcito](images/Firstpage.png)
+![imagen feliz día del](images/FirstPage.png)
+
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
 
@@ -131,7 +140,8 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 
 El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente etapa vamos a conocer mas de HTML.
 
-Este simple ejercicio nos enseñó algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ coméntenlo.
+Este simple ejercicio nos enseño algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ comenten.
+
 
 
 
@@ -140,7 +150,9 @@ Este simple ejercicio nos enseñó algunas cosas interesantes, mira a tu compañ
 
 HTML es un simple código que es interpretado por el navegador web para mostrar una página web al usuario.
 
-HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de HyperTexto.
+
+HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de Hypertexto. 
+
 
 **HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas.
 
@@ -458,7 +470,9 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 
 ### Actividad 05
 
+
 - Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
+
 
 - Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
 
@@ -510,6 +524,7 @@ Esto se vería así:
 - Luego viene un párrafo con bastante texto.
 - Luego un párrafo que a su vez con tiene un link (`<a>`).
 - luego dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervínculo.
+
 
 
 
@@ -914,7 +929,11 @@ Luego en el archivo css
 	color: violet;
 }
 ~~~
+
 Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
+
+
+
 
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
@@ -961,9 +980,11 @@ body {font-family: 'Open Sans', sans-serif;}
 
 
 
-###  Actividad 09
 
--	Añade la letra que mas te guste para tu página desde Googlefonts y utilízala en tu página.
+###  Actividad 08
+
+-	Añade la letra que mas te guste para tu pagina desde Googlefonts y usala en tu pagina.
+
 
 
 Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
@@ -972,11 +993,13 @@ Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/
 
 Si has ido siguiendo las instrucciones, tu página ya deberia verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@.
 
+
 Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
 Nuestro código HTML y CSS debería verse algo así:
+
 
 ~~~html
 <!DOCTYPE html>
@@ -1038,7 +1061,9 @@ Nuestro código HTML y CSS debería verse algo así:
 
 ![](images/finalhtmlcss.png)
 
-***Note preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tu quieras.***
+
+***No te preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tu quieras.***
+
 
 
 ## DESAFÍO AVANZADO
@@ -1050,10 +1075,20 @@ Crearemos un Landing page desde una estructura de ejemplo. Te invitamos a este d
 
 #Desafio del Amor Avanzado
 
+
 Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
 
 Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a
 Crear un Landing page desde una estructura de ejemplo.
+
+
+
+
+
+
+
+
+
 
 Te invitamos a este desafío, por supuesto, los mentores estarán contigo para responder todas tus dudas.
 
@@ -1063,16 +1098,17 @@ Te invitamos a este desafío, por supuesto, los mentores estarán contigo para r
 Bootstrap es el framework más popular para el desarrollo de sitios responsive en la web, su código es compatible con SaSS y LESS por lo que podemos trabajar en nuestro preprocesador favorito sin problemas, además existen cientos de herramientas y plantillas que podemos integrar directamente con bootstrap.
 
 
-***FrameWork*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole <<<<<<< HEAD
+
+
+=======
+***FrameWork*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
+
 
 **Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
 
 ***Sass***Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
 
-**Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
 
-***Sass***Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
->>>>>>> 7733b776e1397a4b196b3737f43939a7c1b0bbae
 
 **Less**Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
 
@@ -1499,11 +1535,13 @@ La grilla contiene las siguientes media queries que debemos considerar:
 -	Crea una nueva página y copia el template de bootstrap que te facilitamos.
 -	Añade un Jumbotron a tu nueva página con un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
 -	Añade tres parrafos abajo del Jumbotron cada uno en un container diferente.
--	Añade 3 imágenes sobre cada párrafo, haz se sean responsive y añade algún tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
+
+-	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
 - Añade un button a cada container.
 - Añade un Navbar inverse a tu página.
 - Has que tu página sea responsive utilizando las grillas de bootstrap
--
+
+
 
 
 Si lograste seguir todos los pasos tú pagina web deberia ser como esta.
