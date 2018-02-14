@@ -264,7 +264,7 @@ Si escribes en el archivo index.html :
 
 Al refrescar el navegador, éste se leerá de la siguiente forma:
 
-![imagen de no párrafos](images/noparrafos.png)
+[imagen de no párrafos](images/noparrafos.png)
 
 Si observas, el navegador no respeta la sintaxis de párrafos y se lee como si estuviera todo escrito en una misma línea.
 
