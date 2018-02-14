@@ -1,23 +1,23 @@
 <section class="cover">
 
-# Amor por el código 
+# Amor por el código
 
 ![Logo Amor por el código](images/logo_amor.png)
 
 </section>
 <section>
 
-# Bienvenido 
+# Bienvenido
 
 Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia desafío.
 
-El objetivo, ~~Es enamorarse~~ Es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una pagina web. 
+El objetivo, ~~es enamorarse~~ es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una página web.
 
-Lo haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo , mientras aprendes teoría.
+Esta guía la haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo, mientras aprendes la teoría desde la práctica.
 
-Primero realizaremos una pagina web estática utilizando html + css , Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
+Primero realizaremos una página web estática utilizando HMTL y CSS. Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
 
-Trataremos de ir explicando cada termino utilizado para que tengas un contexto de lo que estamos haciendo. Y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
+Trataremos de ir explicando cada término utilizado para que tengas un contexto de lo que estamos haciendo, y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
 
 
 ## ¿Qué se necesita para este taller?
@@ -31,21 +31,23 @@ Cómo navegador puedes ocupar alguno como:
 - Safari
 - Chrome
 - Opera
-- ~~Edge~~
+- Edge
 
-Cómo editor de texto te recomendamos:
+Como editor de texto te recomendamos:
 
 - [Atom](https://atom.io/).
 
 
-***Si ya tienes todo lo necesario, Aprendamos primero que es una pagina web.***
+***Si ya tienes todo lo necesario, Aprendamos primero que es una página web.***
 
 ![](https://media.giphy.com/media/fJKG1UTK7k64w/giphy.gif)
 
 
 ## ¿Qué es una página web?
 
+
 Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos. 
+
 
 ***WebPage (página web)*** es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
 
@@ -57,11 +59,14 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 ***JS*** JavaScript es un lenguaje de programación muy utilizado para hacer páginas webs.
 
+
 ***¿ muy rápido ? No lo creo, Bienvenido@ a la web.***
+
 
 ![](https://media.giphy.com/media/ZEobigiRBFc7S/giphy.gif)
 
 ## Creando nuestra primera página web:
+
 
 
 Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte. 
@@ -78,13 +83,13 @@ Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 ### Tercer paso:
 
-Ahora creamos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File". 
+Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
 
 ![new file con Atom](images/New_file_atom.png)
 
-Luego  : 
+Luego  :
 
-Llamaremos a nuestro primer archivo 
+Llamaremos a nuestro primer archivo
 
 ~~~
 index.html
@@ -99,24 +104,26 @@ Presionamos enter y el archivo quedó guardado como index.html
 ### Cuarto Paso:
 
 
-Ahora escribiremos, en nuestro archivo: 
+Ahora escribiremos, en nuestro archivo:
 
 ~~~html
 Feliz día del amor, Hola mi amor, o lo que tu quieras !!!
 ~~~
 
-Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, pero te recomiendo que utilizes el atajo del teclado. 
+Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, pero te recomiendo que utilizes el atajo del teclado.
 ***Ctrl + s (Windows, Linux) o  cmd + s (mac).***
 
 ### Quinto paso
 
-Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y ábrelo. 
  
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
 ![imagen feliz día del](images/FirstPage.png)
 
+
+
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
+
 
 ### Recapitulemos
 
@@ -131,18 +138,19 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 
 El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente etapa vamos a conocer mas de HTML.
 
-Este simple ejercicio nos enseño algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ comenten.
 
+Este simple ejercicio nos enseñó algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ coméntenlo.
+
+
+#Capítulo 1
 
 
 ## ¿Qué es HTML?
 
 
-HTML es un simple código que es interpretado por el navegador web para mostrar una página web al usuario.
+HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de HyperTexto.
 
-HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de Hypertexto. 
-
-**HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas. 
+**HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas.
 
 **Marcado** significa que hemos tomado un documento y lo marca con código para decirte cómo interpretar la página (en este caso, un navegador).
 
@@ -159,9 +167,11 @@ Reunanse en parejas, si, no sean timid@, estamos acá para conocer gente y apren
 
 Una vez reunidos, vamos a construir  un sitio con el  perfil de tu compañer@. Vamos a añadir alguna foto, por lo cual cada uno deberá facilitar sacarse una o bajarla de la red social.
 
-Ademas el sitio debe contener la información de gustos de cada uno, si seamos cursis y preguntemos hasta el signo zodiacal. Lo importante es reunir información para que nuestra pagina sea real y la información lo mas real posible. 
 
-Si viniste con tu pareja y todos estos datos ya son conocidos, Celebremos el amor y creemos una oda a la persona que tenemos a nuestro lado, Una pagina con su descripciones y gustos, o simplemente porque la aman tanto,  o sus mas oscuros deseos etc... seamos creativos.
+Ademas el sitio debe contener la información de gustos de cada uno, si somos cursis podemos preguntar hasta el signo zodiacal. Lo importante es reunir información para que nuestra página sea lo mas real posible.
+
+
+Si viniste con tu pareja y todos estos datos ya son conocidos, Celebremos el amor y creemos una oda a la persona que tenemos a nuestro lado, Una página con su descripciones y gustos, o simplemente porque la aman tanto,  o sus mas oscuros deseos etc... seamos creativos.
 
 Si por algún motivo no alcanzamos a tener compañer@, no te preocupes, crea tu propio perfil, demostrando que eres mas cool y que amas el código y a ti,  mas que el whiskey al hielo.
 
@@ -185,16 +195,16 @@ La estructura de una página en HTML es la siguiente:
 </html>
 ~~~
 
-El `doctype` (o tipo de documento) es la primera etiqueta que leeremos y le indica al navegador como debe interpretar el resto del documento. En el ejemplo veremos que el doctype especificado es de HTML5, el cuál es el estándar de actual. 
+El `doctype` (o tipo de documento) es la primera etiqueta que leeremos y le indica al navegador como debe interpretar el resto del documento. En el ejemplo veremos que el doctype especificado es de HTML5, el cuál es el estándar de actual.
 
 La etiqueta `<html>` especifica que desde ese punto en adelante todo lo que venga deberá ser interpretado como HTML.
 
 En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encontrar las hojas de estilo o los iconos, hasta cuál es el título del sitio o sencillamente cómo debe manejar la página en el caso de que tenga que adaptarse a distintos tamaños de pantalla.
 
 
-### Actividad 01. 
+### Actividad 01.
 
-1-	Borra el mensaje del index.html que creamos, y escribe en la primera linea 
+1-	Borra el mensaje del index.html que creamos, y escribe en la primera linea
 
 ~~~html
 html
@@ -209,7 +219,8 @@ De esta forma podemos tener la estructura de nuestra página.
 ![html-Autocompletado](images/html_estructura01.png)
 
 
-No olvides guardar la pagina en este punto  Ctrl + s(windows, linux)  o cmd + s(mac) , Atom borrara el punto azul en el nombre de nuestro archivo cuando esta guardado.
+
+No olvides guardar la página en este punto  Ctrl + s(windows, linux)  o cmd + s(mac) , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 
 ### El título
@@ -230,8 +241,8 @@ Muestra en el navegador el título de la página, se escribe entre las marcas `<
 
 ![imagen del titulo](images/title_gal.png)
 
->>Cabe destacar que Los bookmarks ocupan el título de la página al guardarla.
->>El título tiene mucho valor en el SEO(search engine optimization) de un sitio web.
+>Cabe destacar que Los bookmarks ocupan el título de la página al guardarla.
+>El título tiene mucho valor en el SEO(search engine optimization) de un sitio web.
 
 
 ### Actividad 02
@@ -339,10 +350,10 @@ Refrescamos el navegador y se debería ver algo como esto:
 Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que los párrafos.
 
 
-### Actividad 03
+### Actividad 04
 
--	Añade un Título a tu pagina, indicando el nombre de tu compañer@.
--	Añade un subtitulo a tu página , indicando una frase que la identifique.
+-	Añade un Título a tu página, indicando el nombre de tu compañer@.
+-	Añade un subtítulo a tu página , indicando una frase que la identifique.
 -  Estos títulos deben ir antes de los párrafos.
 
 
@@ -417,9 +428,9 @@ Entonces para agregarla en mi web se copia la ruta de donde se encuentra mi imag
 Donde *images* es el nombre de la carpeta donde se encuentra mi imagen + `/` + *ejemplo* (nombre de mi imagen) `.jpg`(formato)
 
 
-### Actividad 04
+### Actividad 05
 
--	Añade una foto de tu compañer@ puede ser a través de la red social una que tomes en el momento etc. Recuerda que si el archivo es local, debes creas la carpeta images dentro de tu proyecto. (Solicita permiso a tu compañero antes de tomar la foto).
+-	Añade una foto de tu compañer@ puede ser a través de la red social o una que tomes en el momento. Recuerda que si el archivo es local, debes creas la carpeta images dentro de tu proyecto. (Solicita permiso a tu compañero antes de tomar la foto).
 -	Añade la foto arriba del primer título.
 -  Guarda tu archivo y comprueba tu progreso en el navegador.
 
@@ -456,18 +467,19 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 *Importante resaltar que todos los* **atributos** (`href` , `target`, etc...) *se escriben dentro de la etiqueta `< ... >` no fuera, ya que pasaría a ser texto.*
 
 
-### Actividad 05
+### Actividad 06
 
-- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier pagina que le guste mucho, pone una descripción al enlace.
+- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
 
-- Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervinculo, el link a donde nos redirige debe ser alguna pagina acorde a la imagen.
 
->>Si necesitas ayuda, no dudes en preguntar a tu mentor.
+- Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
+
+>Si necesitas ayuda, no dudes en preguntar a tu mentor.
 
 
 ***
 
-## Recapitulemos 
+## Recapitulemos
 
 Hagamos un pequeño resumen de lo que hemos aprendido:
 
@@ -509,21 +521,20 @@ Esto se vería así:
 - Luego un sub sub título `<h2>`.
 - Luego viene un párrafo con bastante texto.
 - Luego un párrafo que a su vez con tiene un link (`<a>`).
-- luego  dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervinculo.
+- luego dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervínculo.
+
+
+
+***Revisa si tienes algo parecido a esto,   Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
 
 
 
 
-***Revisa si tienes algo parecido a esto, Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas apoyese en los mentores.***
-
-
-
-
-# Ordenando nuestra pagina.
+# Ordenando nuestra página.
 
 
 ### Listas ordenadas:
-Para definir una lista de elementos ordenados ocuparemos la etiqueta `<ol>`, pero dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>` 
+Para definir una lista de elementos ordenados ocuparemos la etiqueta `<ol>`, pero dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>`
 
 Las listas ordenadas tienen un número o letra, esto lo modificaremos más adelante con CSS.
 
@@ -540,7 +551,7 @@ Las listas ordenadas tienen un número o letra, esto lo modificaremos más adela
 ### Listas desordenadas:
 
 Las listas desordenadas tienen bullets, esto también es modificable con CSS.
-Para definir una lista de elementos desordenados ocuparemos la etiqueta `<ul>`, y dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>` 
+Para definir una lista de elementos desordenados ocuparemos la etiqueta `<ul>`, y dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>`
 
 ~~~html
 <h3> Esta es una lista desordenada </h3>
@@ -607,13 +618,13 @@ La etiqueta span es similar a los divs pero sirve para etiquetar texto, una part
 ~~~
 
 
-# Actividad 06
+## Actividad 07
 
-Vamos a continuar nuestra pagina dandole un poco de orden.
+Vamos a continuar nuestra página dandole un poco de orden.
 
 - Añade un nuevo div, y en su interior añade una lista ordenada con los lugares favoritos de tu compañer@.
 
-- Añade un otro div y  agrega una tabla a tu pagina resaltando cualidades de tu compañer@. 
+- Añade un otro div y  agrega una tabla a tu página resaltando cualidades de tu compañer@.
 
 **Por defecto al autocompletar un div aparece la etiqueta class="", por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
@@ -634,15 +645,13 @@ Resumen de las etiquetas [aquí](resumen/resumen_de_marcas.md)
 
 
 ## El inspector de elementos
-El inspector de elementos, es una herramienta que podemos abrirla haciendo click derecho sobre la página y luego inspect nos muestra el código completo de la página y nos permite modificarlo. Con esta herramienta pueden ver el código de cualquier página web. 
+El inspector de elementos, es una herramienta que podemos abrirla haciendo click derecho sobre la página y luego inspect nos muestra el código completo de la página y nos permite modificarlo. Con esta herramienta pueden ver el código de cualquier página web.
 
 Puedes aprender más sobre él [aquí](https://developer.mozilla.org/es/docs/Tools/Page_Inspector)
 
 ![inspector de elementos](images/inspect.png)
 
-
->>Juega un rato con él, inspecciona lo que llevas de tu página,
->>y mira sitios de tu interés.
+>Juega un rato con él, inspecciona lo que llevas de tu página,
 
 
 ## Encontrando errores en una página web
@@ -655,9 +664,9 @@ Una buena herramienta para detectar errores en tu página es w3c validator. Tien
 
 
 
-# Segunda parte.
+# Capítulo 2.
 
-Ahora vamos a saltar al diseño de nuestra página web.
+Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie si su CSS.
 
 
 ![imagen de html css y js](images/htmlcssjs.png)
@@ -690,7 +699,7 @@ Todas las instrucciones en CSS se escriben en pares propiedad: valor, para agreg
 ~~~
 
 ## Agregando CSS en el head
- 
+
 La segunda forma de agregar CSS consiste en agregar las propiedades y valores de CSS dentro de una etiqueta style en el head de la página
 
 ~~~html
@@ -703,7 +712,7 @@ La segunda forma de agregar CSS consiste en agregar las propiedades y valores de
 </head>
 ~~~
 
- 
+
 
 ### Sintaxis:
 La sintaxis de css siempre tiene la siguiente estructura:
@@ -714,7 +723,7 @@ etiqueta {
 }
 ~~~
 
-##  Actividad 06 
+
 #Cargando un CSS externo:
 
 La tercera forma para incluir CSS en una página web consiste en agregar un link a un CSS externo, con externo se refiere a fuera de la página, pero puede estar dentro del mismo servidor, o se puede cargar desde otro sitio.
@@ -736,8 +745,8 @@ Para agregar un link a un css ocuparemos la etiqueta link dentro del `<head>`.
 <link rel="stylesheet" type="text/css" href="miestilo.css">
 ~~~
 
->>En Atom si se escribe link y luego se autocompleta con
->>tab, la línea para agregar un CSS externo se escribe sola.
+>En Atom si se escribe link y luego se autocompleta con
+>tab, la línea para agregar un CSS externo se escribe sola.
 
 Quedando de esta manera:
 
@@ -759,6 +768,10 @@ Quedando de esta manera:
 
 Con esto estamos agregando el CSS del archivo miestilo.css a nuestra página web.
 
+##  Actividad 01
+
+-	Añade y referencia un archivo .css en tu proyecto.
+
 
 #### Color:
 
@@ -778,7 +791,7 @@ Tomando lo anterior y teniendo ya añadido nuestra hoja de estilo en head.
 
   <img src="http://littlecaesars.com.mx/portals/7/Images/HSMenu_HNR_Clasica_Pep_Hisp.png" alt="Deliciosa Pizza">
   <h1> Pizza De Peperoni </h1>
-  
+
   ..........
 
 </body>
@@ -808,7 +821,7 @@ h2 {
 }
 ~~~
 
-Deveria verse así.
+Debería verse así.
 
 ![imagen de estilo](images/colortitulos.png)
 
@@ -840,7 +853,7 @@ Nótese también que ahora no se utilizó darle el color nombrándolo, sino que 
 Más Sobre sistema de colores en CSS [aquí](http://htmlcolorcodes.com/es/tutoriales/conceptos-basicos-de-color-css/).
 
 
-Elige el color que quieras para el fondo de tu pagina, puedes ayudarte con el siguiente selector de colores.
+Elige el color que quieras para el fondo de tu página, puedes ayudarte con el siguiente selector de colores.
 
 [Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)
 
@@ -871,15 +884,15 @@ Los **ID** son identificadores **únicos** para cada etiqueta, es como un nombre
 Por ejemplo se le asignará el id "parrafo1" al primer párrafo:
 
 ~~~html
-<p id="parrafo1" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Ipsam consequuntur omnis minima dolorem adipisci officiis enim 
-optio tenetur quos aliquid, saepe, corporis dignissimos? 
+<p id="parrafo1" > Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Ipsam consequuntur omnis minima dolorem adipisci officiis enim
+optio tenetur quos aliquid, saepe, corporis dignissimos?
 Harum debitis veritatis voluptas, illum iste deserunt.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Quo dolorem dignissimos expedita repellendus ducimus natus 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Quo dolorem dignissimos expedita repellendus ducimus natus
 possimus, molestiae architecto, aperiam officiis, amet consequatur,
  nisi. Est accusamus eum quos natus architecto modi </p>
- 
+
 ~~~
 
 De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos.
@@ -891,7 +904,7 @@ Ahora le asigno el estilo en mi archivo miestilo.css
 	color: blue;
 	font-size: 10px;
 }
-	
+
 ~~~
 Ahora solo mi párrafo con id "parrafo1" tendrá el texto azul y tamaño de fuente de 10px, y los demás serán verdes y con tamaño de 20px.
 
@@ -912,16 +925,18 @@ Luego en el archivo css
 ~~~css
 .violeta {
 	color: violet;
-}	
+}
 ~~~
-Para referirse a las clases se esescribecribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
+
+Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
 
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
 
-##Actividad 07
+##Actividad 02
 
--	Añade una clase especifica para los títulos de tu página y dale un color que prefieras.
+
+-	Añade una clase específica para los títulos de tu página y dale un color que prefieras.
 -  Añade una id especifica al párrafo y cambia el tamaño de la letra a 30px
 -  Añade clases o ID y personaliza los elementos de tu página.
 
@@ -940,8 +955,8 @@ font family acepta diversas tipografías simultáneamente a modo de fallback, o 
 ### Googlefonts
 
 [https://www.google.com/fonts
-](https://fonts.google.com/) 
-Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio, 
+](https://fonts.google.com/)
+Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio,
 
 ![imagen google font](images/google_font.png)
 
@@ -950,7 +965,7 @@ Para utilizarla debes hacer click en la opción `select this font` de la fuente 
 Importar la fuente dentro del html o dentro del CSS, por ejemplo si quisiéramos importar open sans dentro del html sería:
 
 ~~~html
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 ~~~
 
 y finalmente utilizarla en nuestro archivo miestilo.css
@@ -961,28 +976,31 @@ body {font-family: 'Open Sans', sans-serif;}
 
 
 
-###  Actividad 08
+
+###  Actividad 03
 
 -	Añade la letra que mas te guste para tu pagina desde Googlefonts y usala en tu pagina.
 
 
+
+
 Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
-
-
 
 ### Recapitulemos
 
-Si has ido siguiendo las instrucciones, tu pagina ya debería verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a tu compañer@. 
+
+Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@.
 
 Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
-
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
 
 
 
-Nuestro código html y css deveria verse algo así:
+
+Nuestro código HTML y CSS debería verse algo así:
+
 
 ~~~html
 <!DOCTYPE html>
@@ -1001,7 +1019,7 @@ Nuestro código html y css deveria verse algo así:
     <h1 class="violeta"> Pizza De Pepperoni </h1>
     <h2 class=" violeta">Hermosa y Deliciosa pizza, rapida y concisa.</h2>
   </div>
-  
+
   <div class="parrafos">
     <p id="parrafo1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       Ipsam consequuntur omnis minima dolorem adipisci officiis enim
@@ -1049,11 +1067,9 @@ Nuestro código html y css deveria verse algo así:
 
 
 
+#Capítulo 3
 
-
-
-
-#Desafio del Amor Avanzado
+#Desafío del Amor Avanzado
 
 Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
 
@@ -1065,27 +1081,28 @@ Te invitamos a este desafío, por supuesto, los mentores estarán contigo para r
 
 # ¿Qué es Bootstrap?
 
-Bootstrap es el framework más popular para el desarrollo de sitios responsive en la web, su código es compatible con SaSS y LESS por lo que podemos trabajar en nuestro preprocesador favorito sin problemas, además existen cientos de herramientas y plantillas que podemos integrar directamente con bootstrap.
+Bootstrap es el framework más popular para el desarrollo de sitios responsive en la web, su código es compatible con SaSS y LESS por lo que podemos trabajar en nuestro preprocesador favorito sin problemas, además existen cientos de herramientas y plantillas que podemos integrar directamente con Bootstrap.
 
 
-***FrameWork*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
+***Framework*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
 
-**Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
+**Responsive** Se refiere a la facultad de que tu página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
 
-***Sass***Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
+***Sass*** Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
 
-**Less**Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
-
-### Desventajas de bootstrap
- 
-Utilizar bootstrap completamente por defecto y no personalizarlo da un toque genérico a la página, hay muchos sitios construidos con este framework por lo que si no lo personalizamos se ve igual a los otros.
+**Less** Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
 
 
-### Utilizando bootstrap
+### Desventajas de Bootstrap
+
+Utilizar Bootstrap completamente por defecto y no personalizarlo da un toque genérico a la página, hay muchos sitios construidos con este framework por lo que si no lo personalizamos se ve igual a los otros.
+
+
+### Utilizando Bootstrap
 
 >Ojo: En esta guía se estará utilizando la versión **v4.0** de Bootstrap
 
-Para integrar boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
+Para integrar Boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
 El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrap y Jquery, estos deben ser linkeados en la página html donde se utilizaran.
 
@@ -1112,7 +1129,7 @@ bootstrap/
 >disminuyendo el impacto en la velocidad por distancia.
 
 
-# Nuestro primer template con bootstrap
+# Nuestro primer template con Bootstrap
 
 Para facilitar la actividad, te entregamos un template HTMl donde se esta utilizando los archivos necesarios de Bootstrap a través de CDN.
 
@@ -1127,11 +1144,11 @@ Para facilitar la actividad, te entregamos un template HTMl donde se esta utiliz
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Feliz dia del Amor y la Amistad!</title>
+    <title>Feliz día del Amor y la Amistad!</title>
   </head>
   <body>
     <h1>Gracias por venir a nuestra actividad!</h1>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -1143,29 +1160,29 @@ Para facilitar la actividad, te entregamos un template HTMl donde se esta utiliz
 
 Para comprobar que  Bootstrap funciona correctamente, debemos tener cuidado de que los archivos CSS y JS necesarios se encuentren donde se especifica. En nuestro template algunos se solicitan en el header y otros al final de body.
 
-Para detectar si hay conflictos con las rutas que pusimos para los assets de bootstrap podemos utilizar el inspector de elementos en el tab network, ahí podemos ademas escoger un sub tab como CSS, en caso de que un archivo no lo encuentre se mostrará en rojo, esto normalmente indica que la dirección apuntada es incorrecta.
+Para detectar si hay conflictos con las rutas que pusimos para los assets de Bootstrap podemos utilizar el inspector de elementos en el tab network, ahí podemos ademas escoger un sub tab como CSS, en caso de que un archivo no lo encuentre se mostrará en rojo, esto normalmente indica que la dirección apuntada es incorrecta.
 
 ![](images/inspector.png)
 
->>Abrir el tab no es suficiente, hay que recargar la página con
->>el tab network abierto para obtener la información.
+>Abrir el tab no es suficiente, hay que recargar la página con
+>el tab network abierto para obtener la información.
 
-Un error típico que podemos detectar de esta forma es la no inclusión (o la inclusión posterior) de Jquery, el javascript de bootstrap depende de Jquery para su funcionamiento, por lo que no incluirlo o hacerlo después mostrará un error y no funcionará correctamente la capa de javascript de bootstrap.
+Un error típico que podemos detectar de esta forma es la no inclusión (o la inclusión posterior) de Jquery, el javascript de Bootstrap depende de Jquery para su funcionamiento, por lo que no incluirlo o hacerlo después mostrará un error y no funcionará correctamente la capa de javascript de bootstrap.
 
 En nuestro template ya esta incluido Jquery donde corresponde, antes de bootstrap. Por lo tanto puedes continuar.
 
 
-
 # Comenzando con bootstrap
 
-Partamos conociendo los componentes básicos.
+Hemos hecho una recopilación de los componentes básicos de Bootstrap, de todas formas te puedes guiar por su documentación oficial. [Documentación](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
 
 
 ## Jumbotron
 
 Es una componente lightweight y flexible que permite mostrar texto o imágenes de forma resaltada en el sitio, ideal para la propuesta de valor del landing page
 
-Ejemplo de uso:
+Ejemplo de básico de uso:
 
 ~~~html
 <div class="jumbotron">
@@ -1175,13 +1192,28 @@ Ejemplo de uso:
 
 ![](images/jumbotron.png)
 
-## Botón
 
-Te diriges a la [documentación](https://getbootstrap.com/docs/4.0/components/buttons/) de Bootstrap,  te encontrarás con ejemplos de diferentes botones.
+***Tips: observa la documentación de Bootstrap v4 para mas detalles.***
+
+## Page Header
+El page-header es otro componente liviano que sirve para títulos de secciones, además puede acompañarse con otro texto de clase small para acompañar el contenido.
+
+![](images/page-header.png)
+
+~~~html
+<div class="page-header">
+	<h1> Yo estoy resaltado <small> Yo no !! </small> </h1>
+</div>
+~~~
+
+
+## Buttons
+
+Si te diriges a la [documentación](https://getbootstrap.com/docs/4.0/components/buttons/) de Bootstrap,  te encontrarás con ejemplos de diferentes botones.
 
 ![imagen de botones](images/botones.png)
 
-La documentación de Bootstrap es muy amigable como ves, te muestra el código y el ejemplo de cómo quedará ese código.
+La documentación de Bootstrap es muy amigable como ves, te muestra el código y el ejemplo de cómo quedará.
 
 Por ejemplo quiero ese botón verde (Succes), simplemente copiamos el código respectivo y pegamos en nuestro archivo html donde se quiera que aparezca.
 
@@ -1199,7 +1231,7 @@ Es un contenedor que da margen de los bordes del sitio, bastante útil a la hora
 
 ![](images/container.png)
 
-En la imagen vemos dos párrafos uno con container y el otro sin  el que tiene container tiene margen respecto a los bordes de la página.
+En la imagen vemos dos párrafos uno con container y el otro sin,  el que tiene container tiene margen respecto a los bordes de la página.
 
 ~~~html
  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -1207,7 +1239,7 @@ En la imagen vemos dos párrafos uno con container y el otro sin  el que tiene c
  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+ 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <div class="container">
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -1223,7 +1255,7 @@ En la imagen vemos dos párrafos uno con container y el otro sin  el que tiene c
 
 
 ## Jumbotron y Containers
-	
+
 Un jumbotron puede ir dentro de un container y un container puede ir dentro de un jumbotron **No es lo mismo un container dentro de un jumbotron que un jumbotron dentro de un container**, esto es lo que estudiaremos a continuación.
 
 ![](images/jumbo-cont.png)
@@ -1255,18 +1287,18 @@ Algo muy distinto sucede cuando ponemos el jumbotron dentro de un container.
 
 Como vemos en la imagen nos damos cuenta que ahora el jumbotron no está pegado al borde de la página, y además ahora es el borde del jumbotron el que está alineado con el texto de los otros containers.
 
->> ##### **¿Cuál método utilizar?** <br> 
->> Depende de lo que se quiera hacer, todos los métodos previos son correctos 
+> ##### **¿Cuál método utilizar?** <br>
+> Depende de lo que se quiera hacer, todos los métodos previos son correctos
 
 
 
 ## Imágenes responsive
 
-Con bootstrap v4 podemos convertir una imagen responsive solo con agregar la clases img-fluid.
+Con Bootstrap v4 podemos convertir una imagen responsive solo con agregar la clase img-fluid.
 
-~~~html 
+~~~html
 <img src="..." class="img-fluid" alt="Responsive image">
-<!-- (para versión 4 de Bootstrap) -->
+
 ~~~
 
 `img-fluid` hace que la imagen tenga un **max-width** del 100%, recordemos que la diferencia entre width y max-width es que width altera el tamaño de todos los elementos mientras que **max-width** como dice su nombre afecta solo a los elementos que tienen un tamaño mayor que el espacio que tienen disponible.
@@ -1275,21 +1307,20 @@ Con bootstrap v4 podemos convertir una imagen responsive solo con agregar la cla
 
 Además hay clases que pueden ayudarnos a darle formas a las imágenes.
 
-~~~html 
+~~~html
 <img src="..." alt="..." class="rounded">
-<img src="..." alt="..." class="circle">
 <img src="..." alt="..." class="rounded-circle">
 ~~~
 
->> ##### **width vs max-widht** <br>
->> Debemos tener cuidado con la propiedad max-width porque esta
->> no cambiará el tamaño de las fotos que son menores al espacio
->> disponible.
+>##### **width vs max-widht** <br>
+> Debemos tener cuidado con la propiedad max-width porque esta
+> no cambiará el tamaño de las fotos que son menores al espacio
+> disponible.
 
 
- 
+
 ## Thumbnails
- 
+
 Los thumbnails permiten agregar estilos y bordes de forma sencilla a las imágenes.
 
 ~~~html
@@ -1305,14 +1336,14 @@ Los thumbnails permiten agregar estilos y bordes de forma sencilla a las imágen
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 		<button type="" class="btn btn-primary"> Comprar</button>
-	
+
 	</div>
 ~~~
 
 ![](images/thumbnail.png)
 
 > ##### **To thumbnail or not to thumbnail**
-> La clase thumbnail puede aplicarse directamente a la imagen 
+> La clase thumbnail puede aplicarse directamente a la imagen
 > a un div superior, en caso de aplicarse a la imagen
 > perderemos otras propiedades como el redondeado y no podremos
 > poner otro contenido dentro del thumbnail.
@@ -1321,29 +1352,45 @@ Los thumbnails permiten agregar estilos y bordes de forma sencilla a las imágen
 
 ## NavBar
 
-En la [documentación](http://getbootstrap.com/) de bootstrap , te diriges a `Components` , y ahí encontrarás varios componentes entre ellos ejemplos de  barra de navegación. (En menú derecho `Navbar`)
+En la [documentación](http://getbootstrap.com/) de Bootstrap , te diriges a `Components` , y ahí encontrarás varios componentes entre ellos ejemplos de  barra de navegación. (En menú derecho `Navbar`)
 
 ![nav](images/navbar.png)
 
 ~~~html
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
 </nav>
 ~~~
 *Este código es sólo una parte de la barra de navegación de la imagen, sólo los ítems de la izquierda.*
@@ -1351,11 +1398,10 @@ En la [documentación](http://getbootstrap.com/) de bootstrap , te diriges a `Co
 
 Al ser barra de navegación, pego el código al inicio de nuestro código, luego de empezado el `<body>`
 
- 
+
 ## La Grilla
 
 Bootstrap contiene una grilla que permite crear layouts de forma muy sencilla.
-
 
 Para utilizar una grilla lo primero que debemos crear es un row (fila)
 
@@ -1404,15 +1450,15 @@ Dentro de este row dispondremos de 12 columnas virtuales que podemos agrupar a n
 
 Dentro de cada una estas columnas podemos agregar todo el contenido que queramos y este contenido se adaptará dentro de las columnas.
 
-Si vamos agregar texto o imagánes sería bueno envolver las columnas en un container. (para agregarles márgenes)
+Si vamos agregar texto o imágenes sería bueno envolver las columnas en un container. (para agregarles márgenes)
 
 ~~~html
 <section class="container">
 	<div class="row">
-		<div class="col-md-6"> 
+		<div class="col-md-6">
 		</div>
-		<div class="col-md-6"> 
-		</div>	
+		<div class="col-md-6">
+		</div>
 	</div>
 </section>
 ~~~
@@ -1498,48 +1544,30 @@ La grilla contiene las siguientes media queries que debemos considerar:
 
 -	Crea una nueva página y copia el template de bootstrap que te facilitamos.
 -	Añade un Jumbotron a tu nueva página con un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
+- Añade un container con un título, subtítulo con los mensajes que quieras.
 -	Añade tres parrafos abajo del Jumbotron cada uno en un container diferente.
--	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
+-	Añade 3 images sobre cada párrafo, haz se sean responsive. Puedes usar thumb-nails si prefieres.
 - Añade un button a cada container.
-- Añade un Navbar inverse a tu página.
+- Añade un Navbar a tu página.
 - Has que tu página sea responsive utilizando las grillas de bootstrap
-- 
+- Desarrolla todo tu potencial, recuerda que puedes añadir un archivo de css aparte para personalizar aun mas tu pagina. No te limites.
 
 
-Si lograste seguir todos los pasos tú pagina web deberia ser como esta.
-[]()
+Si lograste seguir todos los pasos tú pagina web debería ser como esta.
+
+[Ejemplo](https://himuravidal.github.io/LandingLoveExample/)
 
 
 
 ***¡ Mucho Éxito !***
 
 
+
 # Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
 
-# No olvides pedir su número 
-
+# ~~No olvides pedir su número.~~
 
 
 
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
 #!Gracias por participar¡.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
