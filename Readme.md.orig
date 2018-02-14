@@ -12,11 +12,14 @@
 Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia desafío.
 
 El objetivo, ~~es enamorarse~~ es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una página web.
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
-Lo haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo , mientras aprendes teoría.
+Esta guía la haremos en conjunto, realizando actividades que utilizan la metodología de hazlo tu mismo, mientras aprendes la teoría desde la práctica.
 
-Primero realizaremos una pagina web estática utilizando html + css , Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
+Primero realizaremos una página web estática utilizando HMTL y CSS. Tranquilo si no tienes ningún conocimiento previo, no los necesitas, te guiaremos en el proceso.
 
 Trataremos de ir explicando cada término utilizado para que tengas un contexto de lo que estamos haciendo, y a tu disposición estarán los mentores y guías para ayudarte cuando lo necesites.
 
@@ -47,12 +50,17 @@ Como editor de texto te recomendamos:
 ## ¿Qué es una página web?
 
 
+<<<<<<< HEAD
 Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos. 
+=======
+Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta está en nuestro corazón, así que definiremos de forma muy simple algunos términos.
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 
 ***WebPage (página web)*** es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
 
-***Website(sitio Web)*** es una colección de páginas(documentos), agrupadas y conectadas, generalmente de un mismo tema o tópico.
+***Un Website(sitio Web)*** es una colección de páginas(documentos), agrupadas y conectadas, generalmente de un mismo tema o tópico.
 
 ***Web Server(servidor Web)*** es un computador que almacena websites en internet.
 
@@ -69,8 +77,13 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 ## Creando nuestra primera página web:
 
 
+<<<<<<< HEAD
+
+Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte. 
+=======
 Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte.
 
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 ### Primer paso :
 
@@ -84,9 +97,13 @@ Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 ### Tercer paso:
 
+<<<<<<< HEAD
+Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
+=======
 
 Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
 
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 ![new file con Atom](images/New_file_atom.png)
 
@@ -118,14 +135,21 @@ Luego guardamos (grabamos). Para hacerlo puedes ir a la opción File / save, per
 
 ### Quinto paso
 
+<<<<<<< HEAD
+=======
 
 Ahora podemos abrir este archivo con nuestro navegador, vamos a la carpeta donde esta alojado y ábrelo. 
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
  
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
 ![imagen feliz día del](images/FirstPage.png)
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
 
 
@@ -143,15 +167,29 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente etapa vamos a conocer mas de HTML.
 
 
-Este simple ejercicio nos enseñó algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ comenten.
+Este simple ejercicio nos enseñó algunas cosas interesantes, mira a tu compañero y ~~ámense en secreto~~ coméntenlo.
 
 
+<<<<<<< HEAD
+#Capítulo 1
+
+=======
+
+## ¿Qué es HTML?
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 ## ¿Qué es HTML?
 
 
+<<<<<<< HEAD
 HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de HyperTexto.
 
+=======
+
+HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de Hypertexto. 
+
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 **HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas.
 
 **Marcado** significa que hemos tomado un documento y lo marca con código para decirte cómo interpretar la página (en este caso, un navegador).
@@ -169,7 +207,15 @@ Reunanse en parejas, si, no sean timid@, estamos acá para conocer gente y apren
 
 Una vez reunidos, vamos a construir  un sitio con el  perfil de tu compañer@. Vamos a añadir alguna foto, por lo cual cada uno deberá facilitar sacarse una o bajarla de la red social.
 
+<<<<<<< HEAD
 
+Ademas el sitio debe contener la información de gustos de cada uno, si somos cursis podemos preguntar hasta el signo zodiacal. Lo importante es reunir información para que nuestra página sea lo mas real posible.
+
+
+=======
+Ademas el sitio debe contener la información de gustos de cada uno, si somos cursis podemos preguntar hasta el signo zodiacal. Lo importante es reunir información para que nuestra página sea real y la información lo mas real posible.
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 Si viniste con tu pareja y todos estos datos ya son conocidos, Celebremos el amor y creemos una oda a la persona que tenemos a nuestro lado, Una página con su descripciones y gustos, o simplemente porque la aman tanto,  o sus mas oscuros deseos etc... seamos creativos.
 
 Si por algún motivo no alcanzamos a tener compañer@, no te preocupes, crea tu propio perfil, demostrando que eres mas cool y que amas el código y a ti,  mas que el whiskey al hielo.
@@ -178,7 +224,7 @@ Si por algún motivo no alcanzamos a tener compañer@, no te preocupes, crea tu 
 
 ### Estructura de HTML
 
-Un archivo HTML para poder ser interpretado correctamente deber tener una estructura. Esta estructura básica consiste en una **cabeza** (*head*) y un **cuerpo** (*body*), la cabeza contiene toda la información que es para el **navegador**, el cuerpo de la página contiene toda la información que es para el **usuario**. Dentro de las etiquetas HTML se encuentra todo el contenido de la página, y dentro de ellas están los dos bloques previamente mencionados.
+Un archivo HTML para poder ser interpretado correctamente deber tener una estructura. La estructura básica consiste en una **cabeza** (*head*) y un **cuerpo** (*body*), la cabeza contiene toda la información que es para el **navegador**, el cuerpo de la página contiene toda la información que es para el **usuario**. Dentro de las etiquetas HTML se encuentra todo el contenido de la página, y dentro de ellas están los dos bloques previamente mencionados.
 
 La estructura de una página en HTML es la siguiente:
 
@@ -218,7 +264,10 @@ De esta forma podemos tener la estructura de nuestra página.
 ![html-Autocompletado](images/html_estructura01.png)
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 No olvides guardar la página en este punto  Ctrl + s(windows, linux)  o cmd + s(mac) , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 
@@ -352,7 +401,11 @@ Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que los párra
 ### Actividad 04
 
 -	Añade un Título a tu página, indicando el nombre de tu compañer@.
+<<<<<<< HEAD
 -	Añade un subtítulo a tu página , indicando una frase que la identifique.
+=======
+-	Añade un subtitulo a tu página , indicando una frase que la identifique.
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 -  Estos títulos deben ir antes de los párrafos.
 
 
@@ -468,14 +521,20 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 
 ### Actividad 06
 
+<<<<<<< HEAD
+- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
+
+=======
 
 - Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
 
 
 - Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
+
+- Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
 
 >Si necesitas ayuda, no dudes en preguntar a tu mentor.
-
 
 
 ***
@@ -483,6 +542,7 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 ## Recapitulemos
 
 Hagamos un pequeño resumen de lo que hemos aprendido:
+
 Si todo salió bien, Nuestro código debería verse así.
 
 ~~~html
@@ -522,13 +582,21 @@ Esto se vería así:
 - Luego viene un párrafo con bastante texto.
 - Luego un párrafo que a su vez con tiene un link (`<a>`).
 - luego dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervínculo.
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 
 
 ***Revisa si tienes algo parecido a esto,   Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
 
 
+
+
 # Ordenando nuestra página.
+
 
 ### Listas ordenadas:
 Para definir una lista de elementos ordenados ocuparemos la etiqueta `<ol>`, pero dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>`
@@ -615,11 +683,11 @@ La etiqueta span es similar a los divs pero sirve para etiquetar texto, una part
 ~~~
 
 
-### Actividad 07
+## Actividad 07
 
 Vamos a continuar nuestra página dandole un poco de orden.
 
-- Añade un nuevo div, y en su interior añade una lista ordenada con los sitios favoritos de tu compañer@.
+- Añade un nuevo div, y en su interior añade una lista ordenada con los lugares favoritos de tu compañer@.
 
 - Añade un otro div y  agrega una tabla a tu página resaltando cualidades de tu compañer@.
 
@@ -663,7 +731,7 @@ Una buena herramienta para detectar errores en tu página es w3c validator. Tien
 
 # Capítulo 2.
 
-Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie sin su CSS.
+Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie si su CSS.
 
 
 ![imagen de html css y js](images/htmlcssjs.png)
@@ -720,7 +788,11 @@ etiqueta {
 }
 ~~~
 
+<<<<<<< HEAD
 
+=======
+##  Actividad 06
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 #Cargando un CSS externo:
 
 La tercera forma para incluir CSS en una página web consiste en agregar un link a un CSS externo, con externo se refiere a fuera de la página, pero puede estar dentro del mismo servidor, o se puede cargar desde otro sitio.
@@ -765,7 +837,7 @@ Quedando de esta manera:
 
 Con esto estamos agregando el CSS del archivo miestilo.css a nuestra página web.
 
-###  Actividad 01
+##  Actividad 01
 
 -	Añade y referencia un archivo .css en tu proyecto.
 
@@ -926,13 +998,22 @@ Luego en el archivo css
 ~~~
 
 Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
 
 ##Actividad 02
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 -	Añade una clase específica para los títulos de tu página y dale un color que prefieras.
 -  Añade una id especifica al párrafo y cambia el tamaño de la letra a 30px
 -  Añade clases o ID y personaliza los elementos de tu página.
@@ -974,31 +1055,47 @@ body {font-family: 'Open Sans', sans-serif;}
 
 
 
+<<<<<<< HEAD
 ###  Actividad 03
+=======
+###  Actividad 08
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 -	Añade la letra que mas te guste para tu pagina desde Googlefonts y usala en tu pagina.
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
 
 ### Recapitulemos
 
+<<<<<<< HEAD
 
 Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@.
+=======
+Si has ido siguiendo las instrucciones, tu página ya deberia verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@.
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
+Nuestro código HTML y CSS debería verse algo así:
 
-********
+
+<<<<<<< HEAD
 
 
 Nuestro código HTML y CSS debería verse algo así:
 
 
+=======
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 ~~~html
 <!DOCTYPE html>
 <html>
@@ -1060,18 +1157,38 @@ Nuestro código HTML y CSS debería verse algo así:
 ![](images/finalhtmlcss.png)
 
 
-***No te preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tú quieras.***
-
+***No te preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tu quieras.***
 
 
 #Capítulo 3
 
-#Desafío Amor Avanzado
+<<<<<<< HEAD
+#Desafío del Amor Avanzado
+=======
+## DESAFÍO AVANZADO
+
+Hasta el momento hemos aprendido varias cosas acerca de las páginas web, sin embargo nuestra página aun no tiene un aspecto finalizado, ni tampoco esta optimizado para visualizarse en una pantalla móvil o diferentes tamaños.
+Para añadir estas mejoras Vamos a utilizar un FrameWork llamado Bootstrap.
+
+Crearemos un Landing page desde una estructura de ejemplo. Te invitamos a este desafio, por supuesto, los mentores estarán contigo para responder todas tus dudas.
+
+#Desafio del Amor Avanzado
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
+
 
 Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un FrameWork llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
 
-Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a 
+Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a
 Crear un Landing page desde una estructura de ejemplo.
+
+
+
+
+
+
+
+
+
 
 Te invitamos a este desafío, por supuesto, los mentores estarán contigo para responder todas tus dudas.
 
@@ -1081,15 +1198,32 @@ Te invitamos a este desafío, por supuesto, los mentores estarán contigo para r
 Bootstrap es el framework más popular para el desarrollo de sitios responsive en la web, su código es compatible con SaSS y LESS por lo que podemos trabajar en nuestro preprocesador favorito sin problemas, además existen cientos de herramientas y plantillas que podemos integrar directamente con Bootstrap.
 
 
+<<<<<<< HEAD
 ***Framework*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
 
 **Responsive** Se refiere a la facultad de que tu página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
+=======
+
+
+=======
+***FrameWork*** Es un entorno o marco de desarrollo que estandariza herramientas para resolver problemas de indole similar.
+
+
+**Responsive** Se refiere a la facultad de que tú página se vea bien en cualquier dispositivo ( escritorio, tablets, teléfono).
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 ***Sass*** Syntactically Awesome Style Sheets, permite crear CSS dinámico y añade mejoras de pre-procesamiento.
 
+<<<<<<< HEAD
 **Less** Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
 
 
+=======
+
+
+**Less**Leaner Style Sheets, también entrega mejores herramientas para mejorar CSS y el pre-procesamiento.
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 ### Desventajas de Bootstrap
 
 Utilizar Bootstrap completamente por defecto y no personalizarlo da un toque genérico a la página, hay muchos sitios construidos con este framework por lo que si no lo personalizamos se ve igual a los otros.
@@ -1284,8 +1418,13 @@ Algo muy distinto sucede cuando ponemos el jumbotron dentro de un container.
 
 Como vemos en la imagen nos damos cuenta que ahora el jumbotron no está pegado al borde de la página, y además ahora es el borde del jumbotron el que está alineado con el texto de los otros containers.
 
+<<<<<<< HEAD
 > ##### **¿Cuál método utilizar?** <br>
 > Depende de lo que se quiera hacer, todos los métodos previos son correctos
+=======
+>> ##### **¿Cuál método utilizar?** <br>
+>> Depende de lo que se quiera hacer, todos los métodos previos son correctos
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 
 
@@ -1316,6 +1455,10 @@ Además hay clases que pueden ayudarnos a darle formas a las imágenes.
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 ## Thumbnails
 
 Los thumbnails permiten agregar estilos y bordes de forma sencilla a las imágenes.
@@ -1390,7 +1533,7 @@ En la [documentación](http://getbootstrap.com/) de Bootstrap , te diriges a `Co
   </div>
 </nav>
 ~~~
-*Este código es la barra de navegación de la imagen*
+*Este código es sólo una parte de la barra de navegación de la imagen, sólo los ítems de la izquierda.*
 
 
 Al ser barra de navegación, pego el código al inicio de nuestro código, luego de empezado el `<body>`
@@ -1543,11 +1686,21 @@ La grilla contiene las siguientes media queries que debemos considerar:
 -	Añade un Jumbotron a tu nueva página con un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
 - Añade un container con un título, subtítulo con los mensajes que quieras.
 -	Añade tres parrafos abajo del Jumbotron cada uno en un container diferente.
+<<<<<<< HEAD
 -	Añade 3 images sobre cada párrafo, haz se sean responsive. Puedes usar thumb-nails si prefieres.
+=======
+
+-	Añade 3 images sobre cada parrafo, haz se sean responsive y añade algun tipo de efecto a la imagen. Puedes usar thumb-nails si prefieres.
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 - Añade un button a cada container.
 - Añade un Navbar a tu página.
 - Has que tu página sea responsive utilizando las grillas de bootstrap
+<<<<<<< HEAD
 - Desarrolla todo tu potencial, recuerda que puedes añadir un archivo de css aparte para personalizar aun mas tu pagina. No te limites.
+=======
+
+
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 
 Si lograste seguir todos los pasos tú pagina web debería ser como esta.
@@ -1560,11 +1713,15 @@ Si lograste seguir todos los pasos tú pagina web debería ser como esta.
 
 
 
-## Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
+<<<<<<< HEAD
+# Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
 
-### ~~No olvides pedir su número.~~
+# ~~No olvides pedir su número.~~
+=======
+# No olvides pedir su número
+>>>>>>> 0dd05057d8ed0f00fe015091b3f0d1ce6d35be96
 
 
 
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
-##!Gracias por participar¡.
+#!Gracias por participar¡.
