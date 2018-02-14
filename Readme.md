@@ -469,7 +469,7 @@ Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a 
 ### Actividad 06
 
 
-- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañe@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
+- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañer@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
 
 
 - Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
@@ -513,7 +513,7 @@ Si todo salió bien, Nuestro código debería verse así.
 
 Esto se vería así:
 
-![imegen resumen](images/recapitulacion01.png)
+![imagen resumen](images/recapitulacion01.png)
 
 
 - Primero se está llamando una imagen desde el internet.
@@ -1130,7 +1130,6 @@ bootstrap/
 
 Para facilitar la actividad, te entregamos un template HTMl donde se esta utilizando los archivos necesarios de Bootstrap a través de CDN.
 
--	Genera un nuevo archivo HTML en tu Editor de Texto Ponle como nombre "page1.html  y pega el texto a continuación.
 
 
 ~~~html
@@ -1535,7 +1534,7 @@ La grilla contiene las siguientes media queries que debemos considerar:
 
 
 
-### ¿Mucha información?, ¡vamos tú puedes¡. Si llegaste hasta acá ya eres genial, Ahora vamos plantearte un Desafio.
+### ¿Mucha información?, ¡vamos tú puedes¡. Si llegaste hasta acá ya eres genial, Ahora vamos plantearte un Desafío.
 
 ### Desafio Landing en Bootstrap.
 
