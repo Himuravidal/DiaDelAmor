@@ -288,7 +288,7 @@ Por ejemplo, escribamos esto en nuestro archivo index.html:
 
 Refrescamos el navegador y quedaría algo así:
 
-![imagen de párrafos](images/ParrafosNew02.png)
+![imagen de párrafos](images/Parrafosnew02.png)
 
 Gracias a la etiqueta `<p>` Ahora **si** respeta que sea un párrafo!!!
 
@@ -337,9 +337,9 @@ Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que los párra
 
 ### Actividad 04
 
--Añade un título a tu página, indicando el nombre de tu compañer@.
--Añade un subtítulo a tu página , indicando una frase que la identifique.
--Estos títulos deben ir antes de los párrafos.
+- Añade un título a tu página, indicando el nombre de tu compañer@.
+- Añade un subtítulo a tu página , indicando una frase que la identifique.
+- Estos títulos deben ir antes de los párrafos.
 
 
 ### Imágenes:
