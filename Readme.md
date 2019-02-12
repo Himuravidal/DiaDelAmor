@@ -1544,6 +1544,5 @@ Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requ
 
 ### ~~No olvides pedir su número.~~
 
-![](https://media1.tenor.com/assets/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
-
+![Cheers](assets/leo.gif)
 ##¡Gracias por participar!
