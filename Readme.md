@@ -2,14 +2,14 @@
 
 # Amor por el código
 
-![Logo Amor por el código](images/logo_amor.png)
+![Logo Amor por el código](assets/logo_amor.png)
 
 </section>
 <section>
 
-# Bienvenido
+# Bienvenid@
 
-Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia desafío.
+Amor por el código es una actividad que nace desde las mentes creativas y vanguardistas de academia Desafío Latam.
 
 El objetivo, ~~es enamorarse~~ es utilizar esta tarde, para conocer gente nueva, divertirnos y aprender a hacer una página web.
 
@@ -81,7 +81,7 @@ Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
 
-![new file con Atom](images/New_file_atom.png)
+![new file con Atom](assets/New_file_atom.png)
 
 Luego:
 
@@ -92,7 +92,7 @@ index.html
 ~~~
 
 
-![imagen de Atom con index.html](images/Nuevo_archivo_Atom.png)
+![imagen de Atom con index.html](assets/Nuevo_archivo_Atom.png)
 
 Presionamos enter y el archivo quedó guardado como index.html
 
@@ -114,7 +114,7 @@ Ahora podemos abrir este archivo con nuestro navegador, para lograrlo iremos a l
 
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
-![imagen feliz día del](images/FirstPage.png)
+![imagen feliz día del](assets/FirstPage.png)
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!***
 
@@ -145,7 +145,7 @@ HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas**
 
 HTML es un lenguaje de **marcas**, cada una comenzando con `<` y terminando con `>`. Estas etiquetas definen **propiedades**, la **importancia** y el **significado semántico** del contenido que envuelven.
 
-![imagen html lenguaje de marcas](images/html_marcas.png)
+![imagen html lenguaje de marcas](assets/html_marcas.png)
 
 Entonces una página web es un archivo que contiene un conjunto de marcas ó etiquetas y el navegador lee (interpreta) estas marcas y con esa información  muestra las páginas web.
 
@@ -159,25 +159,97 @@ Si viniste con tu pareja y todos estos datos ya son conocidos, Celebremos el amo
 
 Si por algún motivo no alcanzamos a tener compañer@, no te preocupes, crea tu propio perfil, demostrando que eres mas cool y que amas el código y a ti,  mas que el whiskey al hielo.
 
-## Primera parte
+#### Primer paso :
 
-### Estructura de HTML
+Vamos a crear una carpeta nueva en el escritorio. Le puedes llamar como tu quieras, como ejemplo **"proyecto web"**, **"recuerdos"** etc.
+
+#### Segundo paso:
+
+Luego abriremos la carpeta en **Atom** (o el editor de texto que estes ocupando).
+
+- Puede ser arrastrando la carpeta hacia el editor de texto
+- O abriéndola desde el editor de texto.
+
+#### Tercer paso:
+
+Ahora crearemos un archivo nuevo llamado `index.html` (debemos presionar sobre la carpeta del proyecto con el botón secundario y utilizar la opción "New File").
+
+![new file con Atom](./assets/img/New_file_atom.png)
+
+Luego:
+
+Nombraremos a nuestro primer archivo `index.html`
+
+
+![imagen de Atom con index.html](./assets/img/Nuevo_archivo_Atom.png)
+
+Presionamos *enter* y el archivo quedará guardado como **index.html**
+
+#### Cuarto Paso:
+
+Ahora escribiremos dentro de nuestro archivo algún texto, como por ejemplo:
+
+```html
+Mi primera página web. :D
+```
+
+Luego guardamos el archivo, para hacerlo puedes ir a la opción `File / save`, pero se recomienda utilizar el atajo del teclado.
+
+***Ctrl + s (Windows, Linux) o  cmd + s (mac).***
+
+#### Quinto paso
+
+Ahora podemos abrir este archivo con nuestro navegador, para lograrlo iremos a la carpeta donde está guardado y podemos arrastrarlo con el mouse dentro del navegador, o hacerle doble click.
+
+Al abrirlo en el navegador te debería aparecer algo como esto:
+
+![imagen feliz día del](./assets/img/FirstPage.png)
+
+***Felicidades  !!!Ya estás escribiendo tú primera página web!!!*** Aún no tiene el aspecto esperado y aparecen algunos carácteres extraños, pero vamos paso a paso.
+
+### Recapitulemos
+
+Fueron sólo 5 pasos, fácil ¿cierto?.
+
+Respondamos algunas preguntas.
+
+***¿Por qué llamar al archivo de inicio como index?***
+
+Porque es una convención, se subentiende que es el archivo índice que inicia una página web.
+
+***¿Por qué la extensión del archivo es .html?***
+
+El que sea *.html* dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, en la siguiente sección aprenderemos más sobre HTML.
+
+## ¿Qué es HTML?
+
+HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas** de HyperTexto.
+
+**HyperText** significa que es un tipo de texto que soporta hipervínculos entre páginas.
+
+**Marcado** significa que hemos tomado un documento y lo marca con código para decirte cómo interpretar la página (en este caso, un navegador).
+
+HTML es un lenguaje de **marcas**, cada una comenzando con `<` y terminando con `>`. Estas etiquetas definen **propiedades**, la **importancia** y el **significado semántico** del contenido que envuelven.
+
+![imagen HTML lenguaje de marcas](./assets/img/html_marcas.png)
+
+Entonces una página web es un archivo que contiene un conjunto de marcas ó etiquetas y el navegador lee (interpreta) estas marcas y con esa información  muestra las páginas web.
+
+##  ¿Qué es la Estructura HTML?
 
 Un archivo HTML para poder ser interpretado correctamente deber tener una estructura. Esta estructura básica consiste en una **cabeza** (*head*) y un **cuerpo** (*body*), la cabeza contiene toda la información que es para el **navegador**, el cuerpo de la página contiene toda la información que es para el **usuario**. Dentro de las etiquetas HTML se encuentra todo el contenido de la página, y dentro de ellas están los dos bloques previamente mencionados.
-
 La estructura de una página en HTML es la siguiente:
 
-~~~html
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+```html
+<!DOCTYPE html><html>
+  <head>
+    <title></title>
+  </head>
+  <body>
     <!-- Aquí va el contenido de la página web -->
-</body>
+  </body>
 </html>
-~~~
+```
 
 El `doctype` (o tipo de documento) es la primera etiqueta que leeremos y le indica al navegador como debe interpretar el resto del documento. En el ejemplo veremos que el doctype especificado es de HTML5, el cuál es el estándar de actual.
 
@@ -185,479 +257,780 @@ La etiqueta `<html>` especifica que desde ese punto en adelante todo lo que veng
 
 En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encontrar las hojas de estilo o los iconos, hasta cuál es el título del sitio o sencillamente cómo debe manejar la página en el caso de que tenga que adaptarse a distintos tamaños de pantalla.
 
+# Creando nuestra página
 
-### Actividad 01.
+## Trabajaremos en la cabeza (Head)
 
-1-	Borra el mensaje del index.html que creamos, y escribe en la primera linea
+Primero trabajaremos ingresando información que nuestra página tiene que indicarle al navegador para poder funcionar, trabajaremos en el **head**.
 
-~~~html
-html
-~~~
+### Estructura
 
-Gracias a las cualidades de nuestro editor de texto, si presionamos enter luego de escribirlo, nos dará la posibilidad de autocompletar la estructura base del html.
+Le asignaremos un estructura a nuestro `index.html`.
+1-	En nuestro archivo `index.html`, borra el mensaje que habíamos creado.
 
-![html](images/html_estructura.png)
+2-	Escribe en la primera línea ```html``` y presiona *enter*.
 
-De esta forma podemos tener la estructura de nuestra página.
+Gracias a las cualidades de nuestro editor de texto, al presionar **enter** luego de escribirlo, nos autocompleta la estructura base del archivo.
 
-![html-Autocompletado](images/html_estructura01.png)
+![html](./assets/img/html_estructura.png)
 
+Ahora ya tenemos la estructura de nuestra página.
 
+![html-Autocompletado](./assets/img/html_estructura01.png)
 
-No olvides guardar la página en este punto  Ctrl + s(windows, linux)  o cmd + s(mac) , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
+¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
+### El título de la página
 
-### El título
+Ahora vamos a añadir un título a la página, para ello vamos a rellenar información en el **head** de nuestro archivo `index.html`.
 
-Muestra en el navegador el título de la página, se escribe entre las marcas `<title>` y `</title>` y tiene la función de ser una guía visual del contenido de la ventana o del tab del navegador.
+Este título lo veremos en el navegador, posiblemente en la pestaña(tab) o barra superior.
 
-~~~html
+Para hacerlo, escribe entre las marcas `<title>` y `</title>` el título que deseas ponerle a tu página.
+
+> Ponle título a tu página , ingresando el nombre de tú compañer@. Esto para que no lo olvides!!
+
+En mi caso dejaré el título **Mi primera página web**
+
+```html
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Gal Gadot </title>
-</head>
-<body>
-    <!-- Aquí va todo lo que quieras agregar -->
-</body>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+
+  </body>
 </html>
-~~~
+```
 
-![imagen del titulo](images/title_gal.png)
+Si guardamos, y recargamos el navegador, el resultado será el siguiente:
 
->Cabe destacar que Los bookmarks ocupan el título de la página al guardarla.
->El título tiene mucho valor en el SEO(search engine optimization) de un sitio web.
+![imagen del título](./assets/img/title_page.png)
 
+>Cabe destacar que Los bookmarks ocupan el título de la página al guardarla, es decir al guardar la página en favoritos, tendrá este nombre.
 
-### Actividad 02
+>El título tiene mucho valor en el SEO(search engine optimization) de un sitio web, esto quiere decir que los títulos son importantes para posicionar una página en un buscador.
 
-Ponle título a tu página , ingresando el nombre de tú compañer@, o lo que necesites ingresar. No olvides guardar.
+### Eliminando caracteres extraños
+Como recuerdan, nuestro primer mensaje tenía carácteres extraños donde se deberían mostrar tíldes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos carácteres.
 
+También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, en este caso `charset` sería el *atributo* y `utf-8` el *valor*.
 
-## Atributos y valores
+## Trabajando en el Body
 
-En la etiqueta `<meta charset="utf-8">` vemos que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, y la regla es simple, si la etiqueta no tiene contenido no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, donde `charset` sería el *atributo* y `utf-8` el *valor*.
+### Etiquetas Básicas:
 
-## Etiquetas Básicas:
+Una etiqueta en HTML es un elemento que define como se comporta y muestra el contenido que alberga, vamos a utilizar algunas etiquetas básicas del lenguaje para darle sentido a nuestra página.
 
 Todo lo que veremos desde ahora se debe escribir dentro de **body** *(hasta que se indique lo contrario), por ende dentro de las etiquetas* `<body>` `</body>`
 
-### Párrafos:
+### Titulares y Subtitulares:
 
-Si escribes en el archivo index.html :
-
-~~~html
-<!DOCTYPE html>
-<html>
-	<head>
-    <meta charset="utf-8">
-    <title>Gal Gadot</title>
-  	</head>
-  	<body>
-    hola a todos !!!
-    hola hola hola
-    hola !!!
-  	</body>
- </html>
-
-~~~
-
-Al refrescar el navegador, éste se leerá de la siguiente forma:
-
-![imagen de no párrafos](images/noparrafos.png)
-
-Si observas, el navegador no respeta la sintaxis de párrafos y se lee como si estuviera todo escrito en una misma línea.
-
-Lo que pasa es que HTML es un lenguaje de marcas y para separar cada línea del texto y se pueda leer todo en varias líneas, deben de existir etiquetas de por medio.
-Vamos a aprender la primera etiqueta y la más sencilla de todas: `p`.
-
-Se abre con `<p>` y debido a que contiene información se debe cerrar con `</p>`.
-
-Todo el contenido que se encuentre dentro de estas marcas pasa a tener la **propiedad de párrafo**.
-Por ejemplo, escribamos esto en nuestro archivo index.html:
-
-~~~html
-    hola a todos !!!
-    hola hola hola
-    hola !!!
-    <p>Gal es mi novia</p>
-    <p>Es una mujer maravillosa</p>
-~~~
-
-*No olvidar que esto se escribe dentro de body.*
-
-Refrescamos el navegador y quedaría algo así:
-
-![imagen de párrafos](images/Parrafosnew02.png)
-
-Gracias a la etiqueta `<p>` Ahora **si** respeta que sea un párrafo!!!
-
-Puedes agregar la cantidad y largo de contenido que quieras.
-
-En Atom si se escribe "p" (o cualquier marca) y luego tab, se autocompleta la etiqueta por si sola. Para que este truco funcione es necesario que el editor tenga identificado el tipo de archivo(html), por defecto lo detecta por la extensión original, pero se puede cambiar en la parte inferior izquierda.
-
-
-### Actividad 03
-
-Añade 3 párrafos a tu página web:
-
--	El primero debe describir brevemente a tu compañer@.
--  El segundo debe indicar la edad de tú compañer@ y cuando esta de cumpleaños.
--  El tercero debe indicar cual era la expectativa de participar hoy en este evento.
-
-No olvides guardar tu archivo y revisa tu progreso en tu navegador.
-
-
-### Títulos y Subtítulos:
-
-Una página web también tiene títulos y subtítulos, al igual que un periódico!
-
-La marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título!
+Una página web también tiene titulares y subtitulares, al igual que un periódico, la marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título.
 
 Por ejemplo escribamos en nuestro archivo index.html:
 
-~~~html
-hola a todos !!!
-    hola hola hola
-    hola !!!
-    <h1> Titulo 1 </h1>
-    <p>Gal es mi novia</p>
-    <p>Me encanta su personalidad</p>
-    <p>Le cargaría la bip</p>
-	<h6> Sub sub sub sub sub titulo </h6>
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1>Titúlo 1</h1>
+    <h2>Titúlo 2</h2>
+    <h3>Titúlo 3</h3>
+    <h6>Titúlo 6</h6>
+  </body>
+</html>
+```
 
-~~~
+Guardemos los cambios, refrescamos el navegador y se debería ver algo como esto:
 
-Refrescamos el navegador y se debería ver algo como esto:
+![imagen de titulares](./assets/img/titulos01.png)
+Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que otros elementos que veremos a continuación. Ahora vamos a añadir el título de muestra página, así que eliminemos los titulares que ingresamos y escribamos lo siguiente.
 
-![imagen de titulares](images/Titulos01.png)
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1>Mi primera página web</h1>
+  </body>
+</html>
+```
 
-Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que los párrafos.
+Deberíamos ver algo como esto:
+
+![](./assets/img/tituloweb.png)
+
+> En tu caso utilizaremos el titular `<h1>TU_NOMBRE y NOMBRE_COMPADER@  celebrando el amor por el código</h1>`
+
+Aun estamos muy lejos de la página que queremos lograr, pero vamos avanzando.
+
+### Quiebre de línea con `<br>`
+
+Si observamos la página que queremos lograr, el titular principal esta en dos líneas, pareciera que son dos etiquetas, pero es sólo una. Para lograr este resultado utilizaremos una etiqueta especial llamada "break line" `<br>`, agreguémosla en nuestro código.
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1>Mi primera <br>página web</h1>
+  </body>
+</html>
+```
+
+Guardamos y recargamos la página en el navegador, deberíamos ver algo como esto:
+
+![br](./assets/img/br.png)
+
+> Para nuestro caso quedará `<h1>TU_NOMBRE y NOMBRE_COMPADER@<br> celebrando el amor por el código</h1>`
 
 
-### Actividad 04
+¡Genial!, ahora tenemos el titular de nuestra página, sólo nos falta añadirle un detalle. 
 
-- Añade un título a tu página, indicando el nombre de tu compañer@.
-- Añade un subtítulo a tu página , indicando una frase que la identifique.
-- Estos títulos deben ir antes de los párrafos.
+La frase antes de "página" lleva una tipografía más pequeña que el resto, para más adelante añadirle este efecto, vamos a envolverla en una etiqueta llamada "span", nuestro código debería quedar así:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1><span>Mi primera</span><br>página web</h1>
+  </body>
+</html>
+```
+
+Este cambio, por el momento, no supondrá ningún cambio visual.
+
+> Para nuestro caso quedará `<h1><span>TU_NOMBRE y NOMBRE_COMPADER@</span><br> celebrando el amor por el código</h1>`
+
+## Continuando con la página.
+
+Para los siguientes pasos, nos fijaremos en la página de muestra. Luego de los títulos, vienen varias tarjetas con una foto, un títular y un párrafo, aprenderemos a crear estos elementos.
+
+> En este momento comenzaremos a construir la página de nuestr@ compañer@. Vamos a conversar un rato y preguntarle sus intereses, hobbies, trabajo, etc. Lo que quieras, el objetivo es ~~conocer bien~~ armar un sitio interesante para el otro. Si son pareja, quizás es el momento de contarse los secretos ocultos (si es que aún quedan) o recopilar los momentos más divertidos de la relación.
+
+
+### Nuevos titulares
+
+Ya sabemos crear titulares, así que manos a la obra, crearemos 9 titulares `h5` en nuestras tarjetas. El contenido queda a tu elección, yo seguiré el ejemplo de la página mostrada al comienzo. Tu **HTML** debería verse así.
+
+> ¡Elige los titulares que mejor describan a tu pareja! ¿Descubriste algún dato interesante?
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+     <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1><span>Mi primera</span><br>página web</h1>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+  </body>
+</html>
+```
+
+Si guardas y recargas la página, deberías ver algo similar a esto:
+
+![](./assets/img/Titularesh3.png)
+
+### Párrafos y Lorem ipsum.
+
+Los párrafos son otra etiqueta *HTML* muy útil para introducir texto al interior de nuestra página.
+
+Podemos observar que en las tarjetas de nuestra página va una descripción, este texto lo ingresaremos en párrafos. Vamos a ello.
+
+Debajo del primer titular `<h5>` escribe `p` y utiliza el tabulador. El autocompletado hará su trabajo y creará una etiqueta así:
+
+```html
+	<p>    </p>
+```
+Escribe dentro de estos párrafos una descripción del recuerdo mencionado en el titular. Por motivos de tiempo, sólo completaremos la descripción de 3 recuerdos. Los otros párrafos, los vamos autocompletar con un texto de prueba llamado "Lorem ipsum". Atom nos facilitará la vida ya que está integrado en su autocompletado. 
+
+Para usarlo, dentro de un párrafo, escribe "lorem" y utiliza el tabulador, de forma automática se escribirá un texto de prueba.
+
+```html
+<h5>Cocinando</h5>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+```
+
+Si completas todos los párrafos, tu código y página debería verse así.
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+     <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1><span>Mi primera</span><br>página web</h1>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+
+  </body>
+</html>
+```
+
+Si guardamos la página y recargamos el navegador, deberíamos ver algo como esto:
+
+![lorem](./assets/img/lorem.png)
 
 
 ### Imágenes:
 
-Hasta el momento solo hemos utilizado texto, así que pondremos algunas imágenes. La etiqueta para agregar imágenes es
+Hasta el momento sólo hemos utilizado texto, así que pondremos algunas imágenes. La etiqueta para agregar imágenes es
 
 ~~~html
 <img src=" " alt=" ">
 ~~~
 
-Donde `src` es *source* , que en español es fuente y que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de solo texto.
+Donde `src` es *source* , que en español es fuente, que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de sólo texto.
 
 Esta etiqueta no necesita cerrarse como lo hacen las anteriores.
 
 Para agregar imágenes utilizando esa etiqueta puedes hacerlo de dos maneras:
 
--Directo de una URL de internet.
--Desde una imagen desde tu proyecto (desde tu computador).
+- Directo de una URL de internet.
+- Desde una imagen desde tu proyecto (desde tu computador).
 
-### Imágenes Desde internet:
+### Imágenes desde Internet:
 
-Buscas en el google la imagen que quieras, y luego haciendo click en "ver imagen" , ésta te llevará a una url terminada en .jpg o .png
+Podremos ingresar cualquier foto que este en Internet si utilizamos su URL. URL quiere decir que es una dirección que apuntará hacia ese recurso.
 
-![imagen universo](images/GalGadot03.png)
+>Añade una foto de tu compañer@ de una Red Social o de algo que encuentres en Internet que la o lo describa bien.
 
-Esa url debes copiarla y pegarla dentro de los `" "` del source
+Anda a la red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscar en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
 
-~~~html
-<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY317_CR51,0,214,317_AL_.jpg" alt="Galgadotita">
-~~~
-Entonces si esto lo agregamos en nuestro archivo index.html:
+Con este paso, tendremos la URL de la foto.
+![copiar ruta](./assets/img/img_facebook.png) 
 
-~~~html
-  hola a todos !!!
-    hola hola hola
-    hola !!!
-    <h1> GAL GADOT </h1>
-    <h2> Gal es una mujer empoderada y hermosa.</h2>
-    <p>Gal es preciosa</p>
-    <p>Me encanta su personalidad</p>
-    <p>Le cargaría la bip</p>
-    <h6> Sub sub sub sub sub titulo </h6>
-    <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY317_CR51,0,214,317_AL_.jpg"
-     alt="GalGadotita">
-~~~
+Esa url debes copiarla y pegarla dentro de los `" "` del source de la etiqueta `img`yo ingresaré esta foto de ejemplo antes de mi primer `h5`.
 
-Refrescamos el navegador:
+Mi código se debe ver así: 
 
-![imagen index_img](images/GalGadot02.png)
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <h1><span>Mi primera</span><br>página web</h1>
 
-##### Imágenes desde el computador:
+    <img src="https://scontent.fscl6-1.fna.fbcdn.net/v/t1.0-9/30571957_2153329024941595_8643680236489146368_n.jpg?_nc_cat=0&oh=01f6ce80a424ed30709ccef1aeabfe82&oe=5B948E5A">
+    <h5>Cocinando</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-Para esto debes crearte una carpeta **dentro** de tu proyecto llamada *images* y ahí ir integrando las imágenes que quieres en tu proyecto:
+    <h5>Arreglando la casa</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+    <h5>Haciendo Ejercicios</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cuando hicimos el aseo "juntos"</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Asado en el parque</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Mis primeros cuentos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Fiesta de Halloween</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cenando Juntos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cuando gané por primera vez</h5> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </body>
+</html>
+```
+
+ Guardo y recargo la página se vera así.
+![image_añadida](./assets/img/facebook.png)
+Quizás la imagen que añadiste tenga un tamaño muy grande, no te preocupes, esto lo arreglaremos después.
+
+##### Imágenes desde el computador: También vamos a añadir imagenes de forma local. Primero crearemos una carpeta para organizar nuestros archivos externos.
+
+Crea **dentro** de tu proyecto una carpeta con el nombre *assets* y en su interior otra llamada *img*, será en esta carpeta donde vamos a añadir las imagenes que queramos en nuestra página.
 
 ~~~
 proyecto_web
-└───index.html
-	images
-    └─── ejemplo.jpg
+└──index.html	
+/assets/
+  └───img
+      └─── ejemplo.jpg
 ~~~
 
-*Puede ser formato jpg, png, jpeg, ahí debes ver que formato es tu imagen. Importante que las imágenes estén en una carpeta que se llame images dentro de la carpeta de donde está tú proyecto*
 
-En ese ejemplo yo estoy agregando una imagen a mi carpeta *images* con el nombre de *ejemplo* y de formato *.jpg*
+* Las imágenes puede ser formato jpg, png, jpeg. Es importante que las imágenes estén dentro de la carpeta img, para luego poder buscarlas en esa ruta.
+
+En mi caso, yo tengo todas las imágenes que añadire en la página, si quieren utilizar estas mismas, las pueden descargar de [Acá](https://www.dropbox.com/sh/bhrvh94llnizj6j/AACxQwwFN1uWGIr6uMdg1_Yja?dl=0).
+
+>Le puedes pedir a tu compañer@ que te comparta sus imágenes favoritas o que te ayude a descargarlas de Internet
+
+Si descargan esta carpeta, deben añadirla en `assets/img`, su carpeta debería verse como esta imágen.
+
+![](./assets/img/imgdirectory.png)
+
+
+Ya con las fotos incorporadas, voy añadir las primeras, luegos ustedes ya sabrán como hacer el resto. Mi código está así:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  	<head>
+  	 	<meta charset="utf-8">
+    	<title>Mi primera página web</title>
+  	</head>
+  	<body>
+    <h1><span>Mi primera</span><br>página web</h1>
+
+    <img src="./assets/img/img-1.jpg" alt="cocinando">
+    <h5>Cocinando</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    	<img src="./assets/img/img-2.jpg" alt="arreglando">
+    <h5>Arreglando la casa</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-3.jpg" alt="ejercicios">
+    	<h5>Haciendo Ejercicios</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+    <h5>Cuando hicimos el aseo "juntos"</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-5.jpg" alt="en el parque">	
+    <h5>Asado en el parque</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-6.jpg" alt="cuentos">	 
+    <h5>Mis primeros cuentos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-7.jpg" alt="Halloween">
+    <h5>Fiesta de Halloween</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-8.jpg" alt="cenando">
+    <h5>Cenando Juntos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <img src="./assets/img/img-9.jpg" alt="ganando">	 
+    <h5>Cuando gané por primera vez</h5> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</body>
+</html>
+```
+y guardando y recargando la página esta así:
+
+![](./assets/img/images.png)
+
+En este ejemplo yo añadí a las imágenes a la carpeta */assets/assets/*.
 
 Entonces para agregarla en mi web se copia la ruta de donde se encuentra mi imagen en el `src` de la siguiente manera:
 
 ~~~html
-<img src="images/ejemplo.jpg" alt="ejemplo">
+<img src="./assets/img/img-1.jpg" alt="Descripción Imagen">
 ~~~
 
-Donde *images* es el nombre de la carpeta donde se encuentra mi imagen + `/` + *ejemplo* (nombre de mi imagen) `.jpg`(formato)
-
-
-### Actividad 05
-
--	Añade una foto de tu compañer@ puede ser a través de la red social o una que tomes en el momento. Recuerda que si el archivo es local, debes creas la carpeta images dentro de tu proyecto. (Solicita permiso a tu compañero antes de tomar la foto).
--	Añade la foto arriba del primer título.
--  Guarda tu archivo y comprueba tu progreso en el navegador.
-
-
-### Links:
-
-Los links se hacen con la etiqueta `<a>`:
-
-~~~html
-<a href=" "> </a>
-~~~
-Esta etiqueta tiene el atributo href que es hacia adonde apunta, y contenido que muestra el texto, ya que tiene contenido esta etiqueta **si** se cierra.
-
-Veamos un ejemplo:
-
-~~~html
-<a href="https://www.facebook.com/events/1455951704527398/">Link al evento</a>
-
-~~~
-Aquí se está transformando a la frase *Link al evento* en un hipervínculos. Y al hacerle *click* en ella , te enviará al link escrito dentro de las `" "` del `href`
-
-![imagen del link](images/link.png)
-
-Por ende lo que hace esta etiqueta es darle la **propiedad de hipervínculos** al contenido de ésta, apuntándolo al link que se encuentra en `href`
-
-Si pongo link sin `href`, no me llevará a ninguna parte. Y si al link no le pongo texto(contenido) ,pero si `href`, no se podrá ver el link por ninguna parte y por ende no se podrá hacer nada.
-
-Si yo quisiera que el link me abriera en una página nueva, hay que agregarle a la etiqueta el **atributo** `target="_blank"`, quedando de esta forma:
-
-~~~html
-<a href="https://www.facebook.com/events/2162321913993416/" target="_blank" > Link al evento </a>
-~~~
-
-*Importante resaltar que todos los* **atributos** (`href` , `target`, etc...) *se escriben dentro de la etiqueta `< ... >` no fuera, ya que pasaría a ser texto.*
-
-
-### Actividad 06
-
-
-- Añade un párrafo y en su interior agrega el enlace a alguna red social de tu compañer@. Si no tiene red social, utiliza cualquier página que le guste mucho, pone una descripción al enlace.
-
-
-- Añade una nueva foto de algunos de sus pasatiempos e intenta convertirla en un hipervínculo, el link a donde nos redirige debe ser alguna página acorde a la imagen.
-
->Si necesitas ayuda, no dudes en preguntar a tu mentor.
-
-
-
-***
+Ahora te toca a ti poner una imagen sobre cada uno de los titulares `h5`.
+> Si necesitas ayuda, no dudes en preguntar a los mentores.***
 
 ## Recapitulemos
 
-Hagamos un pequeño resumen de lo que hemos aprendido:
-Si todo salió bien, Nuestro código debería verse así.
+Hagamos un pequeño resumen de lo que hemos aprendido: Si todo salió bien, nuestro código debería verse así:
 
-~~~html
+```html
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Pizza de Pepperoni</title>
-  <meta charset="utf-8">
-</head>
-<body>
-    <img src="http://littlecaesars.com.mx/portals/7/Images/			HSMenu_HNR_Clasica_Pep_Hisp.png" 			alt="DeliciosaPizza">
-    <h1> Pizza De Peperoni </h1>
-    <h2>Hermosa y Deliciosa pizza, rapida y concisa.</h3>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing 		  elit.
-      Ipsam consequuntur omnis minima dolorem adipisci officiis 		enim
-      optio tenetur quos aliquid, saepe, corporis dignissimos?
-      Harum debitis veritatis voluptas, illum iste deserunt.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Quo dolorem dignissimos expedita repellendus ducimus 		natus
-      possimus, molestiae architecto, aperiam officiis, amet 		consequatur,
-      	nisi. Est accusamus eum quos natus architecto modi.</p>
-    <p> Facebook de la Pizza <a href="https://www.facebook.com/			LittleCaesarsPIzzaSanJoaquin/" target="_blank" >aquí 	</a></p>
-    <a href="https://littlecaesars.com/en-us/"> <img 	src="images/pizzaLittle.jpg" alt="DeliciosaPizza"> </a>
-  </body>
+<html lang="es" dir="ltr">
+  	<head>
+  	 	<meta charset="utf-8">
+    	<title>Mi primera página web</title>
+  	</head>
+  	<body>
+      <h1><span>Mi primera</span><br>página web</h1>
+      	
+      <img src="./assets/img/img-1.jpg" alt="cocinando">
+      <h5>Cocinando</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-2.jpg" alt="arreglando">
+      <h5>Arreglando la casa</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-3.jpg" alt="ejercicios">
+      <h5>Haciendo Ejercicios</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+      <h5>Cuando hicimos el aseo "juntos"</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-5.jpg" alt="en el parque">	
+      <h5>Asado en el parque</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-6.jpg" alt="cuentos">	 
+      <h5>Mis primeros cuentos</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-7.jpg" alt="Halloween">	 
+      <h5>Fiesta de Halloween</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-8.jpg" alt="cenando">	 
+      <h5>Cenando Juntos</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <img src="./assets/img/img-9.jpg" alt="ganando">
+      <h5>Cuando gané por primera vez</h5> 
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
 </html>
+```
 
-~~~
+*¡Hemos hecho todos estos pasos!*
 
-Esto se vería así:
+- Aprendimos a poner título a la página
+- Luego aprendimos a poner titulares y subtitulares.
+- Añadimos párrafos.
+- Aprendimos a poner imágenes de Internet o locales.
 
-![imagen resumen](images/recapitulacion01.png)
-
-
-- Primero se está llamando una imagen desde el internet.
-- Luego se pone un título `<h1>`(Titular principal).
-- Luego un sub sub título `<h2>`.
-- Luego viene un párrafo con bastante texto.
-- Luego un párrafo que a su vez con tiene un link (`<a>`).
-- luego dentro de un link se llama a una imagen que se encuentra dentro de la carpeta *images* y que se llama *pizzaLittle.jpg*. Convirtiendo la imagen en un hipervínculo.
+***Revisa si tienes algo parecido a esto,   ¡Felicidades! haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
 
 
+## Ordenando nuestra página con `header` `div`,`main` y `footer`
 
-***Revisa si tienes algo parecido a esto,   Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
+Nuestra página debe estar ordenada siempre.
 
+Actualmente nuestro contenido esta dentro de la etiqueta `body` y no se distinguen las distintas secciones.
 
-# Ordenando nuestra página.
+Ahora conoceremos las etiquetas que nos ayudaran a segmentar  y ordenar la pieza, bueno no tanto, sólo el código de la página.
 
-### Listas ordenadas:
-Para definir una lista de elementos ordenados ocuparemos la etiqueta `<ol>`, pero dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>`
+### Header
 
-Las listas ordenadas tienen un número o letra, esto lo modificaremos más adelante con CSS.
+La etiqueta `<header>` la utilizaremos para agrupar los elementos de la página que van en la parte superior de esta.
 
-~~~html
-<h3> Esta es una lista ordenada </h3>
-<ol>
-	<li> Lista 1 </li>
-	<li> Lista 2 </li>
-</ol>
+En nuestro caso será nuestro titular principal.
 
-~~~
-![imagen lista ordenada](images/listaordenada.png)
+Vamos a ello, escribe header y utiliza el tabulador para que se autocomplete la etiqueta sobre el `h1` inicial.
 
-### Listas desordenadas:
+Ahora corta ese h1 y pégalo dentro de la etiqueta header.
 
-Las listas desordenadas tienen bullets, esto también es modificable con CSS.
-Para definir una lista de elementos desordenados ocuparemos la etiqueta `<ul>`, y dentro de esta lista debemos definir elementos, eso lo haremos con la etiqueta `<li>`
+Como en este ejemplo:
 
-~~~html
-<h3> Esta es una lista desordenada </h3>
-<ul>
-  <li> Lista 1 </li>
-  <li> Lista 2 </li>
-</ul>
-~~~
+![header](./assets/img/header.gif)
 
-![imagen lista ordenada](images/listadesordenada.png)
-### Tablas
+*Ojo que este ejemplo es nuestro taller anterior, pero es la misma dinámica*
 
-Es posible agregar tablas con datos ocupando la etiqueta `<table>`, dentro de una tabla debemos especificar las filas y las celdas dentro de las filas utilizando `<tr>` y `<td>` cada etiqueta tr especifica una nueva fila, y cada etiqueta td una celda.
+### Main
 
-~~~html
-<table>
-<tr>
-<td> Celda 1</td>
-<td> Celda 2</td>
-</tr>
+La etiqueta main nos indicará el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
 
-<tr>
-<td> Celda 3</td>
-<td> Celda 4</td>
-</tr>
+Lo haremos igual que con la etiqueta anterior, sólo que esta vez agruparemos todo el resto del código.
 
-</table>
-~~~
+Como en este ejemplo:
 
-<table>
-<tr>
-<td> Celda 1</td>
-<td> Celda 2</td>
-</tr>
+![header](./assets/img/main.gif)
+*Ojo que este ejemplo es nuestro taller anterior, pero es la misma dinámica*
 
-<tr>
-<td> Celda 3</td>
-<td> Celda 4</td>
-</tr>
+### Footer
 
-</table>
+Si observamos la página de ejemplo nos daremos cuenta que tenemos un lindo mensaje en la parte inferior de la página, todo esto estará al interior de una etiqueta llamada `footer` la cual agrupará el código que vamos a incluir.
+
+Escribe lo siguiente en tu página web. Abajo del cierre de la etiqueta `main`, ´footer´ y enter o tab para autocompletar.
+
+Luego, al interior de footer incluye lo siguiente 
+
+```html
+<footer>
+  <h2><span>Todos los derechos reservados <br> ©2019</h2>
+</footer>
+```
+Guarda y recarga la página, el final de tu página debería verse así.
+
+![](./assets/img/inicialfooter.png)
 
 ### Divs:
-Los divs son etiquetas que permiten anidar a otras etiqueta y le damos estilo propio a la agrupación (esto lo haremos más adelante con CSS).
-Envuelve varias etiquetas, y todas las etiquetas envueltas por él, están bajo la influencia del div.
 
-~~~html
-<div class="">
-	<h1> Titular 1 </h1>
-	<h2> Titular 2 </h2>
-	<p> Párrafo 1 </p>
-</div>
-~~~
+Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un estilo propio a la agrupación (esto lo haremos más adelante con CSS).
 
-Cada div puede indicar una clase especifica, esto servirá mas adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
+Un div puede envolver varias etiquetas, y todas las etiquetas envueltas por él quedarán bajo la influencia del div.
+
+Para probar esto vamos a añadir muchos divs en nuestra página, por lo que tenemos que prestar mucha atención.
+
+Nuestro primer gran div agrupará todos los elementos de `main`. Fíjate en el siguiente ejemplo:
+
+![gif div principal](./assets/img/divprincipal.gif)
 
 
-### Span:
+**Por defecto al autocompletar un `div` aparece la etiqueta `class=""`, por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
-La etiqueta span es similar a los divs pero sirve para etiquetar texto, una parte de una palabra, una palabra o más. (luego con CSS, hace más sentido, por ahora es bueno que la conozcas)
+Cada div puede indicar una clase específica, esto servirá más adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
 
-~~~html
-<p> Lorem <span> Ipsum </span> </p>
-~~~
+Ya tenemos un gran `div`, ahora vamos añadir otros para segmentar nuestro código.
+
+![](./assets/img/divcarddeck.gif)
+
+El ejemplo añade sólo tres fotos, ahora vamos añadir los otros divs para agrupar.
+
+si todo salió bien tu código debería verse así:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+</head>
+
+<body>
+    <header>
+        <h1><span>Mi primera</span><br>página web</h1>
+    </header>
+    <main>
+        <div class="">
+            <div class="">
+                <img src="./assets/img/img-1.jpg" alt="cocinando">
+                <h5>Cocinando</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-2.jpg" alt="arreglando">
+                <h5>Arreglando la casa</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-3.jpg" alt="ejercicios">
+                <h5>Haciendo Ejercicios</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                </p>
+                
+                <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+                <h5>Cuando hicimos el aseo "juntos"</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-5.jpg" alt="en el parque">
+                <h5>Asado en el parque</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-6.jpg" alt="cuentos">
+                <h5>Mis primeros cuentos</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-7.jpg" alt="Halloween">
+                <h5>Fiesta de Halloween</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-8.jpg" alt="cenando">
+                <h5>Cenando Juntos</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-9.jpg" alt="ganando">
+                <h5>Cuando gané por primera vez</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2><span>Todos los derechos reservados <br> ©2018</h2>
+    </footer>
+</body>
+
+</html>
+```
+Ahora vamos añadir los `divs` que estarán dentro de las tarjetas. 
+
+El primero agrupará los elementos de cada tarjeta, y luego crearemos para separar los textos de la imagen.
+
+Hazlo como en este ejemplo:
+
+![](./assets/img/div_into.gif)
+
+Sólo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al finalizar tu código debería verse así.
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+</head>
+
+<body>
+    <header>
+        <h1><span>Mi primera</span><br>página web</h1>
+    </header>
+    <main>
+        <div class="">
+            <div class="">
+                <div class="">
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-1.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-2.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-3.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-4.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-5.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-6.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-7.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-8.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-9.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
 
 
-### Actividad 07
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2><span>Todos los derechos reservados <br> ©2018</h2>
+    </footer>
+</body>
 
-Vamos a continuar nuestra página dandole un poco de orden.
+</html>
+```
 
-- Añade un nuevo div, y en su interior añade una lista ordenada con los sitios favoritos de tu compañer@.
-
-- Añade un otro div y  agrega una tabla a tu página resaltando cualidades de tu compañer@.
-
-**Por defecto al autocompletar un div aparece la etiqueta class="", por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
-
-
-
-
-### Etiquetas semánticas:
-
-HTML5 introduce  etiquetas semánticas, que no aportan ningún comportamiento visual adicional, pero que nos permiten por un lado definir de forma semántica el significado de su contenido, lo que será muy útil para el SEO (la optimización de contenidos para buscadores)
-
-![imagen de etiquetas semánticas](images/semanticas.png)
-
-Si quieres aprender más [aquí](http://www.tutorialmonsters.com/web-semantica-con-html5/)
-
-### Resumen de etiquetas
-Resumen de las etiquetas [aquí](resumen/resumen_de_marcas.md)
+**Genial, ya tenemos la estructura HTML de nuestra página sólo nos queda darle vida y alegría.**
 
 
+# Capítulo 2 Darle cariño a la página
 
-## El inspector de elementos
-El inspector de elementos, es una herramienta que podemos abrirla haciendo click derecho sobre la página y luego inspect nos muestra el código completo de la página y nos permite modificarlo. Con esta herramienta pueden ver el código de cualquier página web.
-
-Puedes aprender más sobre él [aquí](https://developer.mozilla.org/es/docs/Tools/Page_Inspector)
-
-![inspector de elementos](images/inspect.png)
-
->Juega un rato con él, inspecciona lo que llevas de tu página,
+Ahora vamos a trabajar en el aspecto visual de nuestra página web. Porque un HTML no es nadie sin su CSS.
 
 
-## Encontrando errores en una página web
-Una buena herramienta para detectar errores en tu página es w3c validator. Tiene diversas formas de validar, nosotros ocuparemos **Validate by direct input**, ahí podemos copiar el contenido de nuestra página y ver si hay errores de algún tipo.
-
-![W3C Validator](images/w3cvalidator.png)
-
-
-
-
-
-
-# Capítulo 2.
-
-Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie sin su CSS.
-
-
-![imagen de html css y js](images/htmlcssjs.png)
+![imagen de html css y js](./assets/img/htmlcssjs.png)
 
 Hemos aprendido algunas cosas esenciales de HTML, lo  que vendría siendo el esqueleto de nuestro sitio web, ahora le añadiremos la "piel", el diseño, y eso lo hacemos con CSS.
-
-
 
 # ¿Qué es CSS?
 
@@ -666,14 +1039,13 @@ CSS es acrónimo de Cascading Style Sheet, o sea hojas de estilo que se pueden i
 Hay tres formas de incorporar CSS dentro de una página web.
 
 - La primera es con un conjunto de atributos y valores dentro de la etiqueta del mismo HTML.
-
 - La segunda consiste en agregar el CSS dentro del head del mismo documento HTML.
-
-- La tercera forma consiste en utilizar un archivo externo.
+- La tercera forma consiste en utilizar un archivo externo. 
 
 La **forma recomendada de trabajar es la 3º**, pero para explicar como funciona CSS ejemplificaremos sobre la primera y se dará una breve explicación de la segunda.
 
 ## Sintaxis y primera forma
+
 Todas las instrucciones en CSS se escriben en pares propiedad: valor, para agregar CSS sobre una etiqueta HTML (Primera forma) debes agregar a la etiqueta syle="propiedad: valor"
 
 ## Un ejemplo: color para un párrafo
@@ -681,6 +1053,9 @@ Todas las instrucciones en CSS se escriben en pares propiedad: valor, para agreg
 ~~~html
 <p style="color: red"> </p>
 ~~~
+
+>Le puedes aprovechar de preguntar su color favorito
+
 
 ## Agregando CSS en el head
 
@@ -697,7 +1072,6 @@ La segunda forma de agregar CSS consiste en agregar las propiedades y valores de
 ~~~
 
 
-
 ### Sintaxis:
 La sintaxis de CSS tiene la siguiente estructura:
 
@@ -707,41 +1081,39 @@ etiqueta {
 }
 ~~~
 
-
 # Cargando un CSS externo:
 
-La tercera forma para incluir CSS en una página web consiste en agregar un link a un CSS externo, con externo se refiere a fuera de la página, pero puede estar dentro del mismo servidor, o se puede cargar desde otro sitio.
+La tercera forma para incluir CSS en una página web consiste en agregar un link a un CSS externo, con externo se refiere a fuera de la página (en nuestro caso "index.html"), pero puede estar dentro del mismo servidor, o se puede cargar desde otro sitio.
+Primero creamos un archivo nuevo llamado `style.css`, este archivo contendra nuestro estilos.
 
-Primero creamos un archivo nuevo, dentro de la carpeta de nuestro proyecto, llamado miestilo.css
-
+Primero crearemos una carpeta llamada `css` al interior de `assets`.
 ~~~
-proyecto_web
-└───miestilo.css
-	index.html
-	images
-    └─── ejemplo.jpg
+	proyecto_web
+	└───index.html	  
+		└───assets
+		   └───img
+		   └───css	
+			   └───style.css
 ~~~
-El nombre no importa, lo importante es que sea `.css` para que sepa que estamos escribiendo CSS.
 
-Para agregar un link a un archivo CSS ocuparemos la etiqueta link dentro del `<head>`.
+Luego crearemos con **ATOM**  este nuevo archivo, botón derecho sobre la nueva carpeta creada y seleccionaremos `new file` con el nombre `style.css`
+
+El nombre no importa, lo importante es que sea `.css` para que sepa que estamos escribiendo CSS. Para decirle a nuestra página que este será el archivo que utilizaremos debemos ocupar la etiqueta *link* dentro del `<head>`.
+
+Escribiremos lo siguiente.
+
+```html
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+```
+
+>En Atom si se escribe link y luego se autocompleta con `tab`, la línea para agregar un CSS externo se escribe sola. Quedando nuestro head de la siguiente manera:
 
 ~~~html
-<link rel="stylesheet" type="text/css" href="miestilo.css">
-~~~
-
->En Atom si se escribe link y luego se autocompleta con
->tab, la línea para agregar un CSS externo se escribe sola.
-
-Quedando de esta manera:
-
-~~~html
-<!DOCTYPE html>
-<html>
-<head>
-	<title> Pizza de Pepperoni </title>
-   <meta charset="utf-8">
-   <link rel="stylesheet" type="text/css" href="miestilo.css">
-</head></head>
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
 <body>
 .
 .
@@ -750,85 +1122,36 @@ Quedando de esta manera:
 </html>
 ~~~
 
-Con esto estamos agregando el CSS del archivo miestilo.css a nuestra página web.
-
-###  Actividad 01
-
--	Añade y referencia un archivo .css en tu proyecto.
+Con esto estamos agregando el CSS del archivo style.css a nuestra página web.
 
 
 #### Color:
 
-Vamos a cambiarle el color a la letra de nuestro título h1 y h2.
+Vamos a cambiarle el color a la letra de nuestra sección header.
+Utilizando la sintaxis:
 
-Tomando lo anterior y teniendo ya añadido nuestra hoja de estilo en head.
-
-~~~html
-<!DOCTYPE html>
-<html>
-<head>
-  <title> Pizza de Pepperoni </title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="miestilo.css">
-</head>
-<body>
-
-  <img src="http://littlecaesars.com.mx/portals/7/Images/HSMenu_HNR_Clasica_Pep_Hisp.png" alt="Deliciosa Pizza">
-  <h1> Pizza De Peperoni </h1>
-
-  ..........
-
-</body>
-</html>
-
-~~~
-
-Utilizando la misma sintaxis:
-
-~~~css
-etiqueta {
-	propiedad: valor;
+```css 
+etiqueta {	
+  propiedad: valor;
 }
-~~~
+```
 
-Entonces para cambiarle el color a todo el contenido del título `<h1>` y `<h2>`
+Entonces para cambiarle el color a todo el contenido al interior de `header` vamos a añadir lo siguiente en nuestro archivo `style.css`:
 
-en nuestro archivo `miestilo.css`, añadimos:
-
-~~~css
-h1 {
-	color: red;
+```css
+header {
+  color: white;
+  background-color: #66D34F;
 }
+```
 
-h2 {
-	color: blue;
-}
-~~~
+Guarda y ve el resultado, debería verse así:
 
-Debería verse así.
+![imagen de estilo](./assets/img/colortitulos.png)
 
-![imagen de estilo](images/colortitulos.png)
+Lo que hace el código anterior es tomar todas las etiquetas al interior de header y aplicarle el color blanco (Siempre debes escribir los colores en inglés).
 
-
-
-Lo que hace el código anterior es tomar todas las etiquetas tipo `h1` y `h2` y les asigna el color. Siempre debes escribir los colores en inglés.
-
-****
-Qué pasa si quiero que toda mi página tenga un color de fondo?
-Bueno sabemos que todo el código de nuestra página de encuentra dentro de las etiquetas de `<body>` verdad?
-
-Pues entonces pongámosle un color de fondo:
-
-~~~css
-body {
-	background-color: #F5DA81;
-}
-~~~
-
-Quedando así:
-
-![imagen de pag con fondo](images/backgroundcolor.png)
-
+El color de fondo se añadió con la propiedad `background-color`.
 
 Vemos que ahora tenemos toda la página con un color distinto al por defecto que es blanco.
 
@@ -838,35 +1161,16 @@ Más sobre colores en CSS [aquí](http://htmlcolorcodes.com/es/tutoriales/concep
 
 Elige el color que quieras para el fondo de tu página, puedes ayudarte con el siguiente selector de colores.
 
-[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)
+[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Qué ocurre si necesito, modificar sólo uno específico? Para lograrlo necesitamos introducir el concepto de identificador (ID) y el de clase (class).
 
-
-### Tamaño de la fuente :
-Ademas de darle color a la letra también podemos cambiar el tamaño.
-Eso se hace utilizando la propiedad `font-size`
-
-~~~css
-p {
-	color: green;
-	font-size: 20px;
-}
-~~~
-
-Aquí se puede ver que además de decirle a los párrafos que sean de color rojo, tenga el tamaño de 40 pixeles (`px`). Puedo agregar cuantas propiedades quiera sobre una etiqueta.
-
-Pero esto hará que **todos** los párrafos se comporten de esa manera (que tengan el texto verde y tamaño de letra de 20px).
-
-**¿Cómo hago para personalizar el cambio de una etiqueta específica?**
-
-Ahora lo sabrás:
-
-## ID y Clases
+## Id y Class
 
 Los **ID** son identificadores **únicos** para cada etiqueta, es como un nombre que se le da a la etiqueta para hacerla única.
 
-Por ejemplo se le asignará el id "parrafo1" al primer párrafo:
+Por ejemplo, se le asignará el id "parrafo1" al primer párrafo:
 
-~~~html
+```html
+
 <p id="parrafo1" > Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Ipsam consequuntur omnis minima dolorem adipisci officiis enim
 optio tenetur quos aliquid, saepe, corporis dignissimos?
@@ -875,188 +1179,299 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Quo dolorem dignissimos expedita repellendus ducimus natus
 possimus, molestiae architecto, aperiam officiis, amet consequatur,
  nisi. Est accusamus eum quos natus architecto modi </p>
+```
 
-~~~
-
-De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos.
-
-Ahora le asigno el estilo en mi archivo miestilo.css
+De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos. Ahora le asigno el estilo en mi archivo miestilo.css 
 
 ~~~css
-#parrafo1 {
-	color: blue;
-	font-size: 10px;
-}
-
+#parrafo1 {	color: blue;	}
 ~~~
-Ahora solo mi párrafo con id "parrafo1" tendrá el texto azul y tamaño de fuente de 10px, y los demás serán verdes y con tamaño de 20px.
 
-Se escribe `#` para referirse a una id , y más el nombre para saber a cuál id me estoy refiriendo.
+Al guardar los cambios el párrafo con id "parrafo1" tendrá el texto azul.
 
-Pero como se mencionaba anteriormente el id es único! Pero qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
+Se escribe `#` para referirse a una id, y más el nombre para saber a cuál id me estoy refiriendo.
 
-Para eso existen las **clases**. Las clases son parecidos a un identificador pero **no** son únicas. Eto quiere decir que varios elementos pueden tener la misma clase.
+Pero como se mencionaba anteriormente el id es único, pero ¿qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
 
-~~~html
+Para eso existen las **clases**. Las clases son parecidos a un identificador pero **no** son únicas. Esto quiere decir que varios elementos pueden tener la misma clase. Como por ejemplo:
+
+```html
 <h1 class="violeta"> Pizza De Pepperoni </h1>
 <h2 class=" violeta">Hermosa y Deliciosa pizza, rápida y concisa.</h2>
-~~~
+```
 
 Aquí se le está asignando la misma clase a 2 etiquetas distintas (`<h1>`y `<h2>`).
 
 Luego en el archivo CSS
 
-~~~css
+```css
 .violeta {
 	color: violet;
 }
-~~~
+```
 
 Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
-
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
+### Asignando clases a nuestro proyecto
 
-## Actividad 02
+Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, más  adelante todo se arreglará.
+
+1. La primera clase será en nuestro header
+
+```html
+  <header class="container-fluid header">
+```
+
+Ingresaremos dos clases a esta etiqueta `container-fluid` y `header`
+
+2. En nuestra etiqueta `main` añade la clase:
+	
+```html
+  <main class="container">
+```
+Ingresaremos una clase a esta etiqueta `container`
+
+3.	El primer `div` bajo main tendra la siguiente clase:
+	
+```html
+  <div class="row">
+```
+
+Ingresaremos la clases `row` a esta estiqueta que envuelve todos los otros divs.
+	
+4. El div que agrupa 3 tarjetas llevará la siguiente clase:
+	
+```html
+	<div class="col-md-4">
+```
+ 
+ Ingresamos la clases `col-md-4` a esta estiqueta.
+
+Si añadiste todas las etiquetas de forma correcta tu código debería verse así:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  	<head>
+  	 	<meta charset="utf-8">
+    	<title>Mi primera página web</title>
+    	<link rel="stylesheet" href="assets/css/style.css">
+  	</head>
+  	<body>
+  		<header class="container-fluid header">
+	    	<h1>Mi primera<br>página web</h1>
+	    </header>
+
+		<main class="container">
+    <div class="row">
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-1.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-2.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-3.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-4.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-5.jpg" class="img-fluid" alt="">
+        <h5>Aliquet sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-6.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-7.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-8.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-9.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+    </div>
+  </main>
 
 
--	Añade una clase específica para los títulos de tu página y dale un color que prefieras.
--  Añade una id especifica al párrafo y cambia el tamaño de la letra a 30px
--  Añade clases o ID y personaliza los elementos de tu página.
+		<footer>
+	  		<h2><span>Todos los derechos reservados <br> ©2018</h2>
+		</footer>
+	</body>
+</html>
+```
 
+Ahora que nuestro código está completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
+Vamos a explicar algunos efectos que vamos añadir más adelante.
 
+### Tamaño de la fuente
 
+Además de darle color a la letra también podemos cambiar el tamaño.
+Eso se hace utilizando la propiedad `font-size`, y la utilizaremos en varios elementos de tu página.
 
-### Cambiando las tipografías
-Para cambiar la tipografía de una marca debemos ocupar la propiedad font-family
+## Cambiando las tipografías
+
+Para cambiar la tipografía de una marca debemos ocupar la propiedad font-family ejemplo:
 
 ~~~css
-body{ font-family: "Times New Roman", Georgia, Serif; }
+body{ 
+  font-family: "Times New Roman", Georgia, Serif; 
+}
 ~~~
 
-font family acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
+*font family* acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar, se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
 
-### Googlefonts
+### Googlefonts 
 
-[https://www.google.com/fonts
-](https://fonts.google.com/)
-Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio,
+Vamos a utilizar googleFonts para nuestras tipografías:
+[https://www.google.com/fonts](https://fonts.google.com/)
 
-![imagen google font](images/google_font.png)
+Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio.
 
 Para utilizarla debes hacer click en la opción `select this font` de la fuente respectiva, luego seleccionar los pesos de la fuente.
 
-Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar open sans dentro del HTML sería:
+Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar Open Sans dentro del HTML sería:
 
 ~~~html
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 ~~~
 
-y finalmente utilizarla en nuestro archivo miestilo.css
+Y luego degemos agregarla a nuestro archivo style.css
 
 ~~~css
-body {font-family: 'Open Sans', sans-serif;}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 ~~~
 
+Para hacerlo más  facil puedes pegar lo siguiente en tu archivo HTML y CSS para obtener las tipografías esperadas.
 
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página web</title>
+  <!-- Google Fonts | Raleway | Roboto Slab -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,900|Roboto+Slab:300,400" rel="stylesheet">
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
+```
 
-###  Actividad 03
+## Aplicando todo el estilo
 
--	Añade la letra que mas te guste para tu pagina desde Googlefonts y usala en tu pagina.
+Se puede aplicar estilo de muchas formas, y además existen muchas propiedades y atributos.
 
+Este ejemplo agrupa todo lo que hemos mencionado y algunas cosas que explicaremos a continuación.
 
+```css
+header {
+  background-color: #66D34F;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
 
+header h1 {
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 
-Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
+header span {
+  font-size: 50px;
+  font-weight: 300;
+}
 
-### Recapitulemos
+img {
+  margin-bottom: 10px;
+}
 
+p{
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+}
 
-Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos, ademas, ya conocemos mucho mejor a nuestro compañer@.
+/* Footer */
 
-Nos hemos ~~enamorado~~ divertido y hemos compartido con gente cool.
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  height: 200px;
+}
+
+footer h2 {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+footer span {
+  font-size: 25px;
+  font-weight: 300;
+}
+```
+
+Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, sólo repasaremos las vistas hasta ahora.
+
+## Recapitulemos 
+
+Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos.
+
+Hemos aprendido y celebrado de forma divertida.
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
-
 ********
 
-
-Nuestro código HTML y CSS debería verse algo así:
-
-
-~~~html
-<!DOCTYPE html>
-<html>
-<head>
-  <title> Pizza de Pepperoni </title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="miestilo.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-</head>
-<body>
-  <div class="banner">
-    <img class="img" src="http://littlecaesars.com.mx/portals/7/Images/HSMenu_HNR_Clasica_Pep_Hisp.png" alt="Deliciosa Pizza">
-  </div>
-  <div class="titles">
-    <h1 class="violeta"> Pizza De Pepperoni </h1>
-    <h2 class=" violeta">Hermosa y Deliciosa pizza, rapida y concisa.</h2>
-  </div>
-
-  <div class="parrafos">
-    <p id="parrafo1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Ipsam consequuntur omnis minima dolorem adipisci officiis enim
-      optio tenetur quos aliquid, saepe, corporis dignissimos?
-      Harum debitis veritatis voluptas, illum iste deserunt.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Quo dolorem dignissimos expedita repellendus ducimus natus
-      possimus, molestiae architecto, aperiam officiis, amet consequatur,
-      nisi. Est accusamus eum quos natus architecto modi.</p>
-      <p class="link"> Facebook de la Pizza <a href="https://www.facebook.com/LittleCaesarsPIzzaSanJoaquin/" target="_blank" >aquí </a></p>
-      <a href="https://littlecaesars.com/en-us/"> <img src="images/pizzaLittle.jpg" alt="DeliciosaPizza"> </a>
-    </div>
-
-    <h3 class="violeta">Lugares favoritos</h3>
-    <div class="ul">
-      <ul>
-        <li> La mesa del comedor</li>
-        <li> La mesa de la terraza </li>
-        <li> La mesa de la cocina </li>
-      </ul>
-    </div>
-
-    <h3 class="violeta"> Ventajas y desventajas</h3>
-    <div class="table">
-      <table>
-        <tr>
-          <td> Ventajas</td>
-          <td> Desventajas</td>
-        </tr>
-        <tr>
-          <td> Es muy rica</td>
-          <td> Engorda un poquito</td>
-        </tr>
-      </table>
-    </div>
-  </body>
-  </html>
-~~~
-
-
-![](images/finalhtmlcss.png)
-
-
-***No te preocupes si no tienes lo mismo, lo importante es que tu código pase por la validación de w3c  [validator](https://validator.w3.org/nu/#textarea) y que la página se vea como tú quieras.***
-
-
 # Capítulo 3
+## Desafío 
 
-## Desafío Amor Avanzado
+Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con él, podremos hacer muchas mejoras a nuestros sitios webs.
 
-Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
-
-Primero te explicaremos sus funcionalidades básicas y luego te desafiaremos a crear un Landing page desde una estructura de ejemplo.
+Primero te explicaremos sus funcionalidades básicas y luego lo aplicaremos a nuestro sitio recién creado.
 
 Te invitamos a este desafío, por supuesto, los mentores estarán contigo para responder todas tus dudas.
 
@@ -1073,467 +1488,62 @@ Bootstrap es el framework más popular para el desarrollo de sitios responsive e
 
 **Less** Leaner Style Sheets, Cumple la misma función que SaSS son herramientas que compiten entre ellas y sus funciones son muy similares pero la sintaxis cambia.
 
-### Desventajas de Bootstrap
-
-Utilizar Bootstrap completamente por defecto y no personalizarlo da un toque genérico a la página, hay muchos sitios construidos con este framework por lo que si no lo personalizamos se ve igual a los otros.
-
 ### Utilizando Bootstrap
 
->Observación: En esta guía se estará utilizando la versión **v4.0** de Bootstrap
+>Observación: En esta guía se estará utilizando la versión **v4.1.1** de Bootstrap y no es compatible con versiones anteriores.
 
 Para integrar Boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
-El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrap y Jquery, estos deben ser linkeados en la página HTML donde se utilizaran.
-
-La descarga en cambio se divide en dos tipos, el precompilado donde vienen los CSS y JS directamente a utilizar y el source que viene con todo lo necesario para modificar el código fuente en LESS o SaSS dependiendo de la versión descargada.
-
-Ejemplo de la estructura de directorio del código en LESS.
-
-<pre>
-bootstrap/
-├── less/
-├── js/
-├── fonts/
-├── dist/
-│   ├── css/
-│   ├── js/
-│   └── fonts/
-└── docs/
-    └── examples/
-</pre>
+El CDN consiste simplemente en 2 archivos CSS y un archivo JS de Bootstrap y jQuery, estos deben ser linkeados en la página HTML donde se utilizarán.
 
 >Un CDN es una especie de página web para descargar contenido,
->pero está optimizada para la descarga rápida de assets, además
->que los CDN tienen servidores en diversas partes del mundo
->disminuyendo el impacto en la velocidad por distancia.
+>pero está optimizada para la descarga rápida de assets, además que los CDN tienen servidores en diversas partes del mundo disminuyendo el impacto en la velocidad por distancia.
 
 
-# Nuestro primer template con Bootstrap
+### Añade Bootstrap a tu proyecto y ve como se transforma.
 
-Para facilitar la actividad, te entregamos un template HTMl donde se esta utilizando los archivos necesarios de Bootstrap a través de CDN.
+Durante la construcción del curso utilizamos muchas clases que aun no estamos utilizando, y claro, nuestro sitio no se ve como el de la foto.
 
-~~~html
-<!doctype html>
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Feliz día del Amor y la Amistad!</title>
-  </head>
-  <body>
-    <h1>Gracias por venir a nuestra actividad!</h1>
+Lo que nos falta es añadir Bootstrap.
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
-~~~
+Para hacerte la vida mucho más  fácil, sigue los siguientes pasos:
 
-Para comprobar que Bootstrap funciona correctamente, debemos tener cuidado de que los archivos CSS y JS necesarios se encuentren donde se especifica. En nuestro template algunos se solicitan en el header y otros al final de body.
+1.	 Primero en `index.html` agrega los siguientes elementos hasta que tu `head` quede así:
 
-Para detectar si hay conflictos con las rutas que pusimos para los assets de Bootstrap podemos utilizar el inspector de elementos en el tab network, ahí podemos ademas escoger un sub tab como CSS, en caso de que un archivo no lo encuentre se mostrará en rojo, esto normalmente indica que la dirección apuntada es incorrecta.
+```html
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mi primera página web</title>
+		<!-- Bootstrap CSS 4.1.1 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!-- Google Fonts | Raleway | Roboto Slab -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,900|Roboto+Slab:300,400" rel="stylesheet">
+		<!-- Main Styles -->
+		<link rel="stylesheet" href="assets/css/style.css">
+</head>
+```
+Esta línea le indicará al navegador como se debe comportar con tu página.
 
-![](images/inspector.png)
+2.	Segundo bajo el footer añade las siguientes líneas:
 
->Abrir el tab no es suficiente, hay que recargar la página con
->el tab network abierto para obtener la información.
+```html
+  <!-- Jquery 3.3.1 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper JS 1.14.3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS 4.1.1 -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-Un error típico que podemos detectar de esta forma es la no inclusión (o la inclusión posterior) de Jquery, el javascript de Bootstrap depende de Jquery para su funcionamiento, por lo que no incluirlo o hacerlo después mostrará un error y no funcionará correctamente la capa de javascript de bootstrap.
+```
+Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita. Con todo esto correctamente puesto en nuestra página, guarda tu archivo y recarga.  Si todo salió bien, debería verse como la imagen mostrada al inicio.
 
-En nuestro template ya esta incluido Jquery donde corresponde, antes de bootstrap. Por lo tanto puedes continuar.
-
-
-# Comenzando con bootstrap
-
-Hemos hecho una recopilación de los componentes básicos de Bootstrap, de todas formas te puedes guiar por su documentación oficial.
-[Documentación](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
-## Jumbotron
-
-Es una componente lightweight y flexible que permite mostrar texto o imágenes de forma resaltada en el sitio, ideal para la propuesta de valor del landing page
-
-Ejemplo de básico de uso:
-
-~~~html
-<div class="jumbotron">
-<h1> Yo estoy resaltado </h1>
-</div>
-~~~
-
-![](images/jumbotron.png)
-
-
-***Tips: observa la documentación de Bootstrap v4 para mas detalles.***
-
-## Page Header
-El page-header es otro componente liviano que sirve para títulos de secciones, además puede acompañarse con otro texto de clase small para acompañar el contenido.
-
-![](images/page-header.png)
-
-~~~html
-<div class="page-header">
-	<h1> Yo estoy resaltado <small> Yo no !! </small> </h1>
-</div>
-~~~
-
-
-## Buttons
-
-Si te diriges a la [documentación](https://getbootstrap.com/docs/4.0/components/buttons/) de Bootstrap,  te encontrarás con ejemplos de diferentes botones.
-
-![imagen de botones](images/botones.png)
-
-La documentación de Bootstrap es muy amigable como ves, te muestra el código y el ejemplo de cómo quedará.
-
-Por ejemplo quiero ese botón verde (Succes), simplemente copiamos el código respectivo y pegamos en nuestro archivo HTML donde se quiera que aparezca.
-
-~~~html
-<button type="button" class="btn btn-success">Success</button>
-~~~
-Entonces que pasa aquí, se utiliza la etiqueta button (para que sepa que es un botón) se le dice que es de tipo botón y se le **agrega la clase** `btn` **y además la clase** `btn-success` para darle las propiedades de CSS que lo dejan como muestra la imagen.
-
-Esta es una de las maravillas de Bootstrap! Puedes asignarle diseño, propiedades y más por medio de clases predeterminadas por Bootstrap.
-
-
-## Container
-
-Es un contenedor que da margen de los bordes del sitio, bastante útil a la hora de mostrar texto.
-
-![](images/container.png)
-
-En la imagen vemos dos párrafos uno con container y el otro sin,  el que tiene container tiene margen respecto a los bordes de la página.
-
-~~~html
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
- 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
- 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
- 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
- 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-<div class="container">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
-</div>
-~~~
-
-
-
-## Jumbotron y Containers
-
-Un jumbotron puede ir dentro de un container y un container puede ir dentro de un jumbotron **No es lo mismo un container dentro de un jumbotron que un jumbotron dentro de un container**, esto es lo que estudiaremos a continuación.
-
-![](images/jumbo-cont.png)
-
-Al ponerle un container el texto se alínea mejor, y aunque esté dentro de un jumbotron un container, y otro container esté fuera sin jumbotron, veremos que ambos textos quedan bien alineados.
-
-![](images/jumbo-cont2.png)
-
-~~~html
-	<div class="jumbotron">
-		<div class="container">
-			<h1> Yo soy un título dentro de un jumbotron y dentro de un container </h1>
-		</div>
-	</div>
-
-	<div class="container">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</div>
-~~~
-
-Algo muy distinto sucede cuando ponemos el jumbotron dentro de un container.
-
-![](images/cont-jumbotron.png)
-
-Como vemos en la imagen nos damos cuenta que ahora el jumbotron no está pegado al borde de la página, y además ahora es el borde del jumbotron el que está alineado con el texto de los otros containers.
-
-> ##### **¿Cuál método utilizar?** <br>
-> Depende de lo que se quiera hacer, todos los métodos previos son correctos
-
-
-## Imágenes responsive
-
-Con Bootstrap v4 podemos convertir una imagen responsive solo con agregar la clase img-fluid.
-
-~~~html
-<img src="..." class="img-fluid" alt="Responsive image">
-
-~~~
-
-`img-fluid` hace que la imagen tenga un **max-width** del 100%, recordemos que la diferencia entre width y max-width es que width altera el tamaño de todos los elementos mientras que **max-width** como dice su nombre afecta solo a los elementos que tienen un tamaño mayor que el espacio que tienen disponible.
-
-![](images/img-responsive.png)
-
-Además hay clases que pueden ayudarnos a darle formas a las imágenes.
-
-~~~html
-<img src="..." alt="..." class="rounded">
-<img src="..." alt="..." class="rounded-circle">
-~~~
-
->##### **width vs max-widht** <br>
-> Debemos tener cuidado con la propiedad max-width porque esta
-> no cambiará el tamaño de las fotos que son menores al espacio
-> disponible.
-
-## Thumbnails
-
-Los thumbnails permiten agregar estilos y bordes de forma sencilla a las imágenes.
-
-~~~html
-<div class="thumbnail" style="width:300px">
-		<img src="assets/desafiolatam.jpg" class="img-responsive img-rounded">
-
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-		<button type="" class="btn btn-primary"> Comprar</button>
-
-	</div>
-~~~
-
-![](images/thumbnail.png)
-
-> ##### **To thumbnail or not to thumbnail**
-> La clase thumbnail puede aplicarse directamente a la imagen
-> a un div superior, en caso de aplicarse a la imagen
-> perderemos otras propiedades como el redondeado y no podremos
-> poner otro contenido dentro del thumbnail.
-
-## NavBar
-
-En la [documentación](http://getbootstrap.com/) de Bootstrap , te diriges a `Components` , y ahí encontrarás varios componentes entre ellos ejemplos de  barra de navegación. (En menú derecho `Navbar`)
-
-![nav](images/navbar.png)
-
-~~~html
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-~~~
-
-*Este código es la barra de navegación de la imagen*
-
-Al ser barra de navegación, pego el código al inicio de nuestro código, luego de empezado el `<body>`
-
-
-## La Grilla
-
-Bootstrap contiene una grilla que permite crear layouts de forma muy sencilla.
-
-Para utilizar una grilla lo primero que debemos crear es un row (fila)
-
-
-~~~html
-<div class="row">
-</div>
-~~~
-
-Dentro de este row dispondremos de 12 columnas virtuales que podemos agrupar a nuestro antojo para poner contenido.
-
-![imagen de grillas](images/grillas.png)
-
-
-~~~html
-<div class="row">
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-</div>
-<div class="row">
-  <div class="col-md-8">.col-md-8</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
-<div class="row">
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
-<div class="row">
-  <div class="col-md-6">.col-md-6</div>
-  <div class="col-md-6">.col-md-6</div>
-</div>
-
-
-~~~
-
-Dentro de cada una estas columnas podemos agregar todo el contenido que queramos y este contenido se adaptará dentro de las columnas.
-
-Si vamos agregar texto o imágenes sería bueno envolver las columnas en un container. (para agregarles márgenes)
-
-~~~html
-<section class="container">
-	<div class="row">
-		<div class="col-md-6">
-		</div>
-		<div class="col-md-6">
-		</div>
-	</div>
-</section>
-~~~
-
-![](images/columns.png)
-
-Entonces resumiendo: Se empieza por añadiendo la clase `.row`, esto creará un bloque horizontal el cual va a contener 12 columnas.
-
-### Utilizando columnas para dispositivos específicos
-
-Es bueno analizar de que palabras vienen los nombres de reglas de estilo que provee Bootstrap:
-
-
-<table>
-<tr>
-<td> col-xs-*</td>
-<td> e(x)tra (s)mall</td>
-<td> dispositivos con pantalla pequeña, móviles</td>
-</tr>
-
-<tr>
-<td> col-sm-* </td>
-<td> (sm)all</td>
-<td> dispositivos con resolución mayor o igual 768px, tablets</td>
-</tr>
-
-<tr>
-<td> col-md-*</td>
-<td> (m)e(d)ium</td>
-<td> dispositivos con resolución mayor o igual a 992px, notebooks  </td>
-</tr>
-
-<tr>
-<td> col-lg-*</td>
-<td> (l)ar(g)e </td>
-<td> resolución mayor o igual a 1200px , computador de escritorio </td>
-</tr>
-
-</table>
-
-*Donde* ` * ` es el número de columnas.
-
-
-### Mobile First
-
-Bootstrap  está construido sobre el concepto de mobile first, esto quiere decir que el primer principio es que la página debe adaptarse al contenido, para eso lo que hace bootstrap es utilizar media queries y desarmar la grilla disponiendo de todo el ancho de la página para presentar su contenido.
-
-A menos que especifiquemos lo contrario.
-
-¿En que repercute esto?
-
-Al disminuir el ancho de la página (o al verla desde un teléfono) veremos que la grilla se rompe.
-
-<img src="images/9 mobile-first.png">
-
-### Media queries
-
-La grilla contiene las siguientes media queries que debemos considerar:
-
-~~~css
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { }
-~~~
-
-***
-***
-***
-
-
-
-### ¿Mucha información?, ¡vamos tú puedes¡. Si llegaste hasta acá ya eres genial, Ahora vamos plantearte un Desafío.
-
-### Desafio Landing en Bootstrap.
-
--	Crea una nueva página y copia el template de bootstrap que te facilitamos.
--	Añade un Jumbotron a tu nueva página con un título con una frase acerca de aprender a hacer una web o cuanto te gusto tu compañer@.
-- Añade un container con un título, subtítulo con los mensajes que quieras.
--	Añade tres parrafos abajo del Jumbotron cada uno en un container diferente.
--	Añade 3 images sobre cada párrafo, haz se sean responsive. Puedes usar thumb-nails si prefieres.
-- Añade un button a cada container.
-- Añade un Navbar a tu página.
-- Has que tu página sea responsive utilizando las grillas de bootstrap
-- Desarrolla todo tu potencial, recuerda que puedes añadir un archivo de CSS aparte para personalizar aun mas tu pagina. No te limites.
-
-
-Si lograste seguir todos los pasos tú pagina web debería ser como esta.
-
-[Ejemplo](https://himuravidal.github.io/LandingLoveExample/)
-
-
-***¡ Mucho Éxito !***
-
+***¡ Mucho éxito !***
 
 ## Si terminaste, Apoya a tus compañeros para que puedan aprender y mejorar sus páginas.
 
 ### ~~No olvides pedir su número.~~
 
-![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
-##!Gracias por participar¡.
+![](https://media1.tenor.com/assets/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
+
+##¡Gracias por participar!
